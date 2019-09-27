@@ -1,0 +1,501 @@
+﻿customerID,name,DOB,gender,mailing address,contact person,phone numbers,education backgroud,marital status,job type,income,LegalServiceRequested
+10157,Dangelo Roberts,7/1/1977,male,"78 Luna Street Moroni, UT 84646",Clay Mullen,(838) 019-1185,high school diploma,single,blue collar,56806,work injury
+10329,Lyla Harrell,10/24/1972,male,"9017 Court Street Dammeron Valley, UT 84783",Adrian Osborne,(943) 663-3279,master degree,married,technician,101099,intellectual property
+10385,Addyson Cervantes,2/8/1939,male,"26 Nichols Dr. Rush Valley, UT 84069",Gabriela Mason,(700) 338-6226,bachelor degree,married,retired,86103,medical settlement
+10584,Ashlynn Armstrong,5/13/1978,female,"650 E. Frost Dr. Lindon, UT 84042",Brylee Morgan,(324) 892-3430,bachelor degree,single,management,37636,work injury
+10839,Jude Perez,11/10/1945,male,"7 Hilldale Drive Snowville, UT 84336",Tucker Kirby,(761) 747-5772,bachelor degree,divorced,retired,79816,medical settlement
+11020,Tyree Robles,1/15/1936,female,"61 Country Club St. Salt Lake City, UT 84150",Jake Carpenter,(956) 156-8544,bachelor degree,divorced,retired,82159,medical settlement
+11321,Aiden Pearson,12/12/1975,male,"24 Law Lane Salt Lake City, UT 84129",Nolan Parrish,(731) 225-3802,master degree,divorced,technician,108978,intellectual property
+11639,Malachi Morales,9/26/1938,female,"95 Fletcher St. Herriman, UT 84096",Alessandra Bernard,(793) 322-5663,bachelor degree,single,technician,66883,medical settlement
+12089,Dwayne Garcia,3/23/1982,female,"7940 10th Street Delta, UT 84624",Felipe Yu,(200) 255-0054,bachelor degree,divorced,management,49404,work injury
+12682,Raymond Rogers,9/13/1975,male,"9373 West Gartner Ave. Corinne, UT 84307",Lilyana Rice,(512) 287-2706,master degree,married,technician,109813,intellectual property
+12787,Jaiden Burke,11/19/1991,male,"2 East Frost Court Cornish, UT 84308",Andy Graves,(120) 851-5091,bachelor degree,married,sales,62994,Contracts
+12830,Chanel Henderson,2/11/1991,female,"35 Windfall Road Payson, UT 84651",Javion Villanueva,(695) 460-7557,master degree,divorced,admin,39640,Contracts
+12845,Colton Chandler,6/1/1988,female,"327 Jade Lane Clawson, UT 84516",Cedric Houston,(497) 138-5364,master degree,divorced,admin,45435,Contracts
+12847,Karla Bishop,7/5/1985,male,"1 Golden Star St. Alton, UT 84710",Gwendolyn Dickson,(430) 421-3681,bachelor degree,married,management,56214,Contracts
+13262,Landyn Mccarty,9/28/1978,female,"7934 W. High Point Ave. Santaquin, UT 84655",Kaiden Thomas,(231) 729-3425,bachelor degree,single,blue collar,91279,intellectual property
+13302,Cheyanne Dominguez,10/6/1995,female,"25 Trusel Drive Bicknell, UT 84715",Isaias Montoya,(801) 278-5735,bachelor degree,married,student,26355,accident litigation
+13452,Kennedy Brennan,8/3/1992,female,"695 Hill Field Drive Salt Lake City, UT 84147",Viviana Berger,(250) 017-7140,master degree,single,admin,46156,Contracts
+13457,Roger Carter,3/12/2000,male,"9920 Noble St. Ogden, UT 84415",Violet Gregory,(677) 507-9234,high school diploma,single,blue collar,28824,accident litigation
+13682,Russell Burch,7/19/1984,female,"7710 Oakland Rd. Dutch John, UT 84023",Kassandra Blackburn,(558) 000-8636,bachelor degree,divorced,management,47111,work injury
+13728,Evan Sweeney,10/9/1981,female,"65 Bath Court Elberta, UT 84626",Ronnie Walsh,(668) 898-7945,doctoral degree,divorced,expert,73506,intellectual property
+13752,Trinity Buck,8/14/1996,female,"8973 Crystal Street Altonah, UT 84002",Carolina Webb,(650) 769-6746,bachelor degree,divorced,student,21038,accident litigation
+13810,Leonidas Holden,2/27/1936,female,"77 Art Rd. Ogden, UT 84415",Tori Hampton,(710) 913-2350,bachelor degree,single,retired,71898,medical settlement
+13838,Gage Moss,5/20/1981,male,"215 Sunshine Ave. Tropic, UT 84776",Monique Blevins,(553) 706-6658,high school diploma,divorced,blue collar,45337,work injury
+14107,Osvaldo Stuart,9/5/1976,male,"995 Penrose St. Provo, UT 84606",Jasmine Schmitt,(762) 437-2769,high school diploma,divorced,blue collar,59860,work injury
+14207,Brenden Garrett,9/28/1979,male,"882 Hart Street Salt Lake City, UT 84128",Vicente Ashley,(817) 383-0977,high school diploma,single,blue collar,52631,work injury
+14213,Hayden Mays,4/30/1943,male,"93 Trinity St. Moab, UT 84532",Alisha Fletcher,(314) 501-5846,bachelor degree,divorced,retired,75142,medical settlement
+14526,Franklin Schaefer,8/30/1982,female,"87 Archer Street Honeyville, UT 84314",Trenton Zuniga,(352) 542-0287,master degree,divorced,admin,46215,Contracts
+14606,Deangelo Pollard,8/10/1972,male,"9691 Elmwood Ave. Logan, UT 84322",Ally Mckee,(131) 971-2737,master degree,married,technician,131768,intellectual property
+14680,Ashanti Dillon,2/4/1976,female,"7774 Temple Street Salt Lake City, UT 84134",Jadyn Walton,(578) 686-6252,bachelor degree,single,management,49937,work injury
+14731,Ayaan Johnston,5/2/1942,female,"675 Sutor St. Bicknell, UT 84715",Darrell Snow,(415) 967-4435,bachelor degree,married,retired,68352,medical settlement
+14768,Justice Dickerson,7/24/1987,male,"108 Walt Whitman St. Alton, UT 84710",Brendan Lindsey,(202) 882-9605,bachelor degree,divorced,sales,58387,Contracts
+15207,Ulises Hanson,8/9/1986,male,"298 Crystal Ave. Joseph, UT 84739",Marisol Wheeler,(175) 679-9120,bachelor degree,married,sales,54416,Contracts
+15288,Tania Oliver,1/11/1981,male,"168 Pioneer Court Santa Clara, UT 84765",Parker Osborn,(940) 135-1026,bachelor degree,married,student,62431,work injury
+15324,Naomi Wilkinson,8/24/1997,male,"39 Maiden St. Enterprise, UT 84725",Tony Bender,(199) 080-1012,high school diploma,divorced,blue collar,26688,accident litigation
+15751,Ayaan Ingram,9/23/1995,male,"8628 Plumb Branch Ave. Tridell, UT 84076",Carolyn Schultz,(551) 119-9009,high school diploma,divorced,blue collar,23091,accident litigation
+16651,Ellie Henry,8/22/1939,female,"27 Brickyard St. Salt Lake City, UT 84101",Valerie Williamson,(575) 055-5395,bachelor degree,married,retired,64516,medical settlement
+16914,Payton Alvarado,2/14/1977,female,"8771 Liberty Rd. Oak City, UT 84649",Zaniyah Costa,(104) 909-2421,doctoral degree,married,expert,111129,intellectual property
+17489,Niko Stephenson,8/19/1944,male,"939 Smith Ave. Mount Carmel, UT 84755",Christopher Cowan,(927) 363-8415,bachelor degree,single,retired,85738,medical settlement
+17914,Stella Collier,3/1/1995,female,"8104 Creekside St. Saint George, UT 84771",Jeremy Ingram,(431) 288-0035,master degree,married,admin,46936,Contracts
+17936,Zackery Ware,1/26/1980,female,"9513 Lower River Dr. Salt Lake City, UT 84165",Lyla Berry,(240) 018-7535,bachelor degree,divorced,management,42059,work injury
+17966,Mario Hernandez,1/20/1981,female,"291 Catherine St. Monroe, UT 84754",Karlee Gentry,(253) 831-5566,bachelor degree,married,management,46482,work injury
+18149,Tessa Murillo,5/26/1982,female,"9 Lotus Street Salt Lake City, UT 84125",Rodolfo Trevino,(196) 508-5182,bachelor degree,married,sales,67642,intellectual property
+18169,Marcelo Hutchinson,3/24/1944,male,"257 Pin Oak St. Midway, UT 84049",Helena Kline,(465) 404-8711,bachelor degree,married,retired,84062,medical settlement
+18415,Marina Salas,5/15/1944,male,"69 East Bayberry Court Roosevelt, UT 84066",Dominique Kaiser,(430) 383-2518,bachelor degree,divorced,retired,83977,medical settlement
+18715,Kinley Hays,11/14/1945,female,"463 Penn Street Eden, UT 84310",Calvin Alvarado,(957) 638-2344,bachelor degree,single,sales,72907,medical settlement
+18798,Miya Tucker,7/18/1986,male,"115 Woodland St. Mexican Hat, UT 84531",Isabela Cisneros,(875) 565-1279,bachelor degree,single,sales,52885,Contracts
+18990,Hanna Anderson,6/24/1992,female,"9836 Sussex St. Morgan, UT 84050",Aaron Mcgee,(948) 716-4452,master degree,single,student,44191,Contracts
+18998,Braelyn Powell,5/24/1996,male,"981 W. Sugarplum Drive Brian Head, UT 84719",Humberto Gomez,(269) 347-1440,high school diploma,married,blue collar,27388,accident litigation
+19014,Jaiden Wilkins,10/29/1944,male,"340 South Main St. Midway, UT 84049",Mallory Gilbert,(597) 983-5843,bachelor degree,married,retired,87741,medical settlement
+19106,Kael Bauer,8/4/1980,male,"9480 National Ave. Hildale, UT 84784",Hayley Fuentes,(566) 161-8570,high school diploma,married,blue collar,56264,work injury
+19185,Paige Dalton,8/9/1986,female,"55 Union CourtApt 69 Helper, UT 84526",Nash Kane,(912) 998-9690,master degree,divorced,management,106187,intellectual property
+19285,Naima Brooks,2/12/1938,female,"805 North Amherst Drive Moroni, UT 84646",Felipe Mccann,(857) 479-7685,bachelor degree,single,retired,66349,medical settlement
+19460,Ean Tyler,10/25/1982,female,"9747 Bay Meadows Drive Redmond, UT 84652",Adrianna Forbes,(788) 118-2864,doctoral degree,single,expert,99997,intellectual property
+19561,Angeline Logan,9/14/1978,male,"19 High Point Ave. Leamington, UT 84638",Wade Barrera,(294) 075-6431,bachelor degree,married,blue collar,54817,work injury
+19636,Eduardo Porter,9/11/1992,male,"134 Estate Ave. Elsinore, UT 84724",Jamiya Leblanc,(470) 906-3288,bachelor degree,single,sales,63763,Contracts
+19722,Jonas Moore,7/20/1984,female,"87 S. Beach St. Saint George, UT 84791",Makenna Atkins,(247) 679-0881,master degree,divorced,admin,46464,Contracts
+19749,Coby Booth,6/10/1983,male,"25 Fulton Ave. Salt Lake City, UT 84114",Richard Villa,(897) 126-7936,master degree,married,sales,57201,work injury
+20196,Corey Leonard,7/12/1972,male,"80 Airport Court Provo, UT 84601",Chaim Rubio,(743) 879-9667,master degree,single,technician,126145,intellectual property
+20304,Skyler Mckenzie,4/27/1977,male,"378 Wright Ave. Logan, UT 84323",Jared Wolf,(768) 790-7001,master degree,single,technician,129607,intellectual property
+20311,Finley Nunez,2/20/1991,female,"7704 Crystal St. Salt Lake City, UT 84139",Damion Stewart,(168) 650-3503,master degree,divorced,technician,46829,Contracts
+20329,Hamza Love,12/20/2000,male,"9832 Bridle Court Sevier, UT 84766",Sofia Peterson,(802) 725-5203,high school diploma,single,blue collar,27875,accident litigation
+20467,Audrey Cobb,4/6/1941,male,"9369 Lower River Court Salt Lake City, UT 84132",Ellen Elliott,(174) 247-4886,bachelor degree,married,retired,90107,medical settlement
+20825,Kennedy Patrick,1/31/1939,female,"3 Shadow Brook Avenue Lindon, UT 84042",Quinn Fuller,(156) 629-3785,bachelor degree,divorced,retired,87580,medical settlement
+20846,Daniella Clements,12/13/1973,male,"719 Laurel Court Orem, UT 84057",Deven Giles,(732) 584-6288,master degree,divorced,technician,115277,intellectual property
+20917,Abel Robinson,1/1/1935,female,"34 S. Parkview Street Lindon, UT 84042",Jocelyn Paul,(363) 077-2831,bachelor degree,divorced,retired,72778,medical settlement
+21100,Giada Key,6/23/1989,female,"229 Rock Maple Rd. Alton, UT 84710",Elliott Fuller,(228) 620-1774,master degree,married,admin,43909,Contracts
+21460,Carmen Stevenson,3/13/1977,male,"7182 Oakwood Lane Altamont, UT 84001",Reese Huff,(213) 301-3243,master degree,divorced,management,121251,intellectual property
+21599,Lawrence Osborne,12/22/1947,male,"7920 Carpenter Road Willard, UT 84340",Braeden Hancock,(391) 969-2329,bachelor degree,single,retired,95450,medical settlement
+21607,Yasmine Vargas,2/15/1939,female,"4 Littleton Dr. Fielding, UT 84311",Juliana Lindsey,(716) 388-8366,bachelor degree,single,admin,64118,medical settlement
+21644,Bailee Hardin,5/29/1997,female,"8787 Rosewood St. Greenwich, UT 84732",Anika Frank,(544) 381-9162,bachelor degree,divorced,student,18792,accident litigation
+21677,Anaya Delgado,6/11/1984,male,"13 Stillwater Drive Kaysville, UT 84037",Edgar Hogan,(438) 930-3846,bachelor degree,married,sales,57077,Contracts
+22118,Ryann Livingston,1/2/1949,male,"780 Ash Street Talmage, UT 84073",Meadow Fischer,(339) 031-1211,bachelor degree,divorced,retired,81243,medical settlement
+22357,Cesar Mullins,12/3/1982,female,"82 Dew St. Salt Lake City, UT 84108",Violet Sheppard,(990) 416-0553,doctoral degree,divorced,expert,115121,intellectual property
+22483,Reginald Franklin,10/26/2001,male,"7643 Jade St. Providence, UT 84332",Malaki Kerr,(382) 424-3254,high school diploma,divorced,blue collar,29907,accident litigation
+22487,Layla Robertson,8/24/1987,male,"3 Diamond Road Alton, UT 84710",Brooklyn Carr,(644) 340-5799,bachelor degree,married,sales,50860,Contracts
+22667,Eliezer Love,4/10/1995,female,"105 Hazelnut St. Layton, UT 84041",Fernanda Mckee,(938) 954-3373,bachelor degree,married,student,27387,accident litigation
+22706,Johnathon Gilbert,4/20/1972,male,"572 Ann St. Park Valley, UT 84329",Drake Fitzgerald,(856) 496-8559,master degree,divorced,technician,111937,intellectual property
+22788,Hailee Green,7/12/1990,female,"67 Santa Clara Street Ogden, UT 84244",Willie Griffin,(368) 882-7696,master degree,divorced,admin,48687,Contracts
+22985,Hamza Shannon,5/20/1997,male,"587 Coach Street Grouse Creek, UT 84313",Maia Weiss,(828) 772-5341,high school diploma,married,blue collar,28503,accident litigation
+22990,Zoey Swanson,2/20/1980,female,"7389 Legend St. Bountiful, UT 84011",Jadyn Gaines,(171) 922-8102,bachelor degree,married,management,49724,work injury
+23191,Kyleigh Case,9/2/1979,female,"27 Birch Hill St. Salt Lake City, UT 84145",Ashlynn Villegas,(731) 875-9014,doctoral degree,single,expert,106307,intellectual property
+23509,Aidan Burns,6/27/1980,male,"3 North Hill Dr. Joseph, UT 84739",Alina Spears,(219) 456-4415,high school diploma,married,blue collar,58096,work injury
+23837,Giovani Stuart,12/20/1981,female,"8 West Thorne St. Salt Lake City, UT 84131",Lyric Wallace,(818) 395-2952,doctoral degree,single,expert,66342,intellectual property
+23875,Ayden Huffman,12/29/1983,male,"8984 Central St. Wellington, UT 84542",Terrell Ayala,(281) 654-0350,bachelor degree,single,sales,50323,Contracts
+23885,Brooke Barnett,6/4/1996,female,"30 College St. Aneth, UT 84510",Alana Castro,(980) 347-6785,bachelor degree,divorced,student,25965,accident litigation
+24024,Madelynn Lawrence,11/11/1938,male,"469 Richardson Drive Salt Lake City, UT 84122",Esperanza Peterson,(804) 449-1307,bachelor degree,single,retired,80015,medical settlement
+24334,Danica Raymond,1/9/1990,female,"46 Circle St. Wales, UT 84667",Brandon Blanchard,(388) 654-1047,master degree,married,admin,39915,Contracts
+24883,Delaney Rowe,5/3/1989,female,"5 Windfall Ave. Orem, UT 84058",Elliana Valdez,(474) 369-9467,bachelor degree,married,management,43331,work injury
+25288,Laney Carroll,2/19/1941,female,"7839 Myers St. Ogden, UT 84244",Wayne Harding,(620) 582-3582,bachelor degree,married,retired,75704,medical settlement
+25359,Omari Rocha,5/14/1985,male,"9920 E. Castle Street Lake Powell, UT 84533",Breanna Sanford,(894) 524-4510,high school diploma,single,blue collar,51760,work injury
+25365,Carlee Mclaughlin,10/21/1941,male,"8990 Euclid St. Wales, UT 84667",Erin Watts,(955) 516-6718,bachelor degree,married,retired,82525,medical settlement
+25524,Jerome Adkins,5/6/1997,female,"993 Prince Drive Loa, UT 84747",Gerald Wagner,(537) 380-0353,bachelor degree,married,student,33476,accident litigation
+25559,Taniya Rivera,7/15/1991,female,"91 E. Myrtle St. Glenwood, UT 84730",Aryanna Camacho,(317) 866-3315,bachelor degree,divorced,blue collar,32642,accident litigation
+25696,Tanya Hardin,8/4/1984,male,"7669 General St. Providence, UT 84332",Logan Aguilar,(653) 691-6849,bachelor degree,married,sales,63116,Contracts
+25745,Jabari Salas,4/4/1998,male,"240 West Albany St. Salt Lake City, UT 84170",King Bradshaw,(496) 006-4051,high school diploma,divorced,blue collar,24306,accident litigation
+25942,Travis Bryan,1/18/2000,male,"17 San Pablo St. Salt Lake City, UT 84131",Sylvia Oconnor,(175) 203-5295,high school diploma,divorced,blue collar,32191,accident litigation
+26010,Grayson Acosta,3/10/1938,female,"9283 Sherman St. Annabella, UT 84711",Clarissa Mooney,(675) 368-8780,bachelor degree,married,retired,88287,medical settlement
+26130,Reed Aguirre,10/26/1983,female,"534 Summit St. Sterling, UT 84665",Brooklyn Conway,(619) 935-4477,doctoral degree,single,expert,123434,intellectual property
+26161,Cameron Hunt,7/25/1978,female,"7 S. Peace Avenue Axtell, UT 84621",Konnor Patterson,(466) 664-0362,bachelor degree,married,management,48105,work injury
+26309,America Lam,4/18/1997,male,"788 Hill Ave. Morgan, UT 84050",Nick Mccoy,(309) 516-0866,high school diploma,divorced,blue collar,31581,accident litigation
+26521,Luca Potts,1/29/1943,male,"149 Azure Court Salina, UT 84654",Edwin Norman,(424) 927-5468,bachelor degree,divorced,retired,87126,medical settlement
+26784,Josue Mills,9/7/1938,female,"7 Theatre Rd. Woodruff, UT 84086",Damaris Pugh,(304) 090-5549,bachelor degree,single,retired,88586,medical settlement
+26806,Leila Kelley,9/29/2000,male,"600 Haven Drive Richmond, UT 84333",Siena Zavala,(503) 701-3551,high school diploma,single,blue collar,25233,accident litigation
+27000,Leandro Nixon,7/12/1947,male,"4 Lavender Road Honeyville, UT 84314",Anabella Arnold,(276) 184-2401,bachelor degree,divorced,retired,77772,medical settlement
+27095,Erick Browning,10/12/1995,female,"66 Marconi Avenue Kanosh, UT 84637",Moriah Price,(491) 100-4368,bachelor degree,married,student,29998,accident litigation
+27569,Clarissa Monroe,4/16/1946,male,"104 Brook Drive Draper, UT 84020",Addison Hoover,(766) 687-3107,bachelor degree,married,retired,78839,medical settlement
+27984,Frederick Miranda,5/26/1989,male,"175 East School St. Altamont, UT 84001",Samir Forbes,(738) 545-4161,bachelor degree,divorced,sales,51418,Contracts
+28100,June Marshall,12/22/1997,male,"7839 Big Rock Cove St. Sunnyside, UT 84539",Anastasia Knox,(265) 638-6232,high school diploma,married,blue collar,30924,accident litigation
+28332,Scarlet Adkins,2/10/1941,female,"489 Birch Hill Court Lynndyl, UT 84640",Brady Young,(665) 981-9267,bachelor degree,married,retired,85992,medical settlement
+28341,Harley Larsen,4/15/1994,female,"211 Boston Dr. Bonanza, UT 84008",Frida Owens,(799) 749-8921,bachelor degree,divorced,student,25621,accident litigation
+28405,Brenna Mccall,7/14/1973,male,"9160 Cambridge St. Leamington, UT 84638",Anne Howard,(701) 812-7441,master degree,divorced,sales,127153,intellectual property
+28505,Guillermo Eaton,1/2/1978,male,"9608 Champion Dr. Hyrum, UT 84319",Keith Gross,(197) 012-8969,master degree,divorced,technician,111549,intellectual property
+28886,Kayden Harper,3/22/1942,male,"50 Whitemarsh Lane Orangeville, UT 84537",Aryana Matthews,(815) 106-5062,bachelor degree,divorced,retired,80599,medical settlement
+28888,Brynlee Higgins,10/16/1999,male,"46 Galvin Ave. Sunnyside, UT 84539",Max Sutton,(639) 516-5373,high school diploma,divorced,blue collar,28197,accident litigation
+28923,Jakob Mckenzie,5/18/1993,female,"9689 Lakeshore Dr. La Verkin, UT 84745",Billy Wagner,(782) 398-8668,bachelor degree,married,student,23377,accident litigation
+29146,Jaxson Benton,1/9/1996,male,"343 Bayberry Street West Jordan, UT 84084",Lena Hinton,(150) 070-4695,high school diploma,single,blue collar,29606,accident litigation
+29987,Will Gould,2/22/1996,female,"61 Augusta St. Salt Lake City, UT 84114",Donald Buchanan,(587) 474-3938,bachelor degree,single,student,25202,accident litigation
+30023,Deangelo Marsh,7/12/1987,male,"63 North Cross St. Pine Valley, UT 84781",Sheldon Weiss,(356) 670-9484,bachelor degree,divorced,sales,57794,Contracts
+30821,Abril Orozco,11/8/1937,female,"732 Sutor Lane Bryce, UT 84764",Nancy Floyd,(918) 604-7937,bachelor degree,married,retired,66972,medical settlement
+31070,Maryjane Gibbs,4/3/1982,female,"846 Valley Ave. Salt Lake City, UT 84147",Janelle Rollins,(330) 211-3812,bachelor degree,divorced,blue collar,43114,work injury
+31119,Paxton Shields,9/10/1983,female,"31 South Country St. Fountain Green, UT 84632",Maggie Hines,(446) 294-3598,bachelor degree,divorced,management,39250,work injury
+31164,Jaylin Duncan,5/31/2000,male,"80 West Noble Street Provo, UT 84601",Lilian Davila,(595) 961-5034,high school diploma,single,blue collar,22834,accident litigation
+31212,Jaime Sanford,2/1/1980,female,"8037 Upper Lane Sunnyside, UT 84539",Kamren Day,(788) 968-8874,bachelor degree,divorced,management,44046,work injury
+31327,Cloe Oconnell,4/1/1973,male,"27 Beachside St. Ogden, UT 84415",Aedan Liu,(682) 286-7869,master degree,single,technician,119800,intellectual property
+31344,Stanley Stuart,11/4/1986,female,"8864 Union Drive Salt Lake City, UT 84180",Grady Snow,(908) 063-2651,master degree,divorced,admin,50333,Contracts
+31353,Annabel Terry,1/31/1940,female,"16 Estate Dr. Antimony, UT 84712",Saul Gentry,(735) 383-6207,bachelor degree,married,retired,68410,medical settlement
+31498,Curtis Navarro,11/12/1980,female,"9188 Bloomfield Ave. Alpine, UT 84004",Ignacio Clay,(184) 061-5778,bachelor degree,divorced,management,38037,work injury
+31836,Kian Whitaker,4/8/1977,male,"7555 Summer Ave. Salt Lake City, UT 84118",Maverick Shah,(165) 767-1901,master degree,divorced,technician,109567,intellectual property
+32102,Haven Pollard,10/29/1986,male,"8204 Ashland Court Provo, UT 84603",Chloe Dalton,(103) 910-4504,bachelor degree,married,student,51355,Contracts
+32279,Akira Carlson,7/17/1989,female,"843 W. Lookout Court Lynndyl, UT 84640",Avah Simmons,(728) 104-4778,master degree,divorced,admin,45968,Contracts
+32389,Rhett Armstrong,10/11/1985,male,"7519 Coffee Street La Verkin, UT 84745",Dominik Hansen,(530) 586-3829,bachelor degree,single,sales,54639,Contracts
+32441,Solomon George,11/22/1982,male,"8240 West Thomas St. Farmington, UT 84025",Talon Salas,(702) 476-8594,master degree,single,admin,59593,work injury
+32479,Jax Estrada,5/16/1982,male,"10 Laurel Court Sandy, UT 84091",Jenna Goodman,(262) 442-8436,high school diploma,single,blue collar,49583,work injury
+32716,Benjamin Winters,6/13/1947,male,"791 Rockwell Avenue Salt Lake City, UT 84139",Gabriella Norton,(135) 540-9201,bachelor degree,married,retired,88543,medical settlement
+32737,Elizabeth Fischer,3/6/1986,male,"350 Gregory St. Tremonton, UT 84337",Isai Mcclain,(893) 824-7259,bachelor degree,divorced,sales,51213,Contracts
+32935,Gael Leach,11/11/1981,male,"205 Myers Ave. Bicknell, UT 84715",Jaylyn Chandler,(289) 349-4673,high school diploma,single,blue collar,50167,work injury
+32938,Alayna Kline,3/4/1991,female,"598 Auburn Dr. Logan, UT 84323",Sam Hernandez,(600) 066-5144,master degree,married,admin,48180,Contracts
+33180,Keon Mcbride,6/22/1942,female,"8949 Rockcrest Ave. Salt Lake City, UT 84124",Amya May,(144) 670-2320,bachelor degree,married,admin,82214,medical settlement
+33365,Miguel Turner,11/3/1984,male,"7543 Lower St. Ogden, UT 84244",Bronson Meyers,(316) 913-3948,bachelor degree,married,sales,49488,Contracts
+33487,Harmony Ellis,4/23/1998,female,"72 W. Sugar St. Fairview, UT 84629",Kaleb Miranda,(184) 492-1089,bachelor degree,married,admin,17472,accident litigation
+33518,Eden Boyd,3/12/1941,male,"7973 Senna Lane Dugway, UT 84022",Israel Mahoney,(821) 903-9721,bachelor degree,single,retired,70829,medical settlement
+33603,Sammy Delgado,12/12/2000,male,"114 W. Littleton Avenue Eureka, UT 84628",Derek Bowen,(552) 368-6795,high school diploma,single,blue collar,21980,accident litigation
+33742,Libby Bolton,11/10/1945,male,"354 Sheffield Dr. Orem, UT 84059",Lillian Steele,(562) 941-7427,bachelor degree,single,retired,68081,medical settlement
+33956,Keyon Holder,12/10/1975,male,"624 Parker Lane Alpine, UT 84004",Angelo Harrington,(290) 586-8689,master degree,divorced,sales,120491,intellectual property
+34384,Rowan Krause,5/1/1981,female,"9502 N. Delaware St.Apt 1 Salt Lake City, UT 84102",Jeremiah Porter,(200) 277-0310,doctoral degree,married,expert,138512,intellectual property
+34481,Chaim Haley,6/23/1972,male,"9349 Hartford Rd. Salt Lake City, UT 84151",Julius Bradford,(808) 035-5528,master degree,divorced,technician,142486,intellectual property
+34534,Raven Kerr,1/3/1987,female,"799 Granite Dr. Sandy, UT 84091",Harrison Day,(498) 395-6194,master degree,divorced,admin,44844,Contracts
+34745,Aryanna Flowers,11/7/1980,female,"8032 Bright St. Cedar Valley, UT 84013",Talon Phelps,(905) 735-2550,bachelor degree,divorced,management,34852,work injury
+34794,Albert Riddle,1/15/1940,female,"8394 Euclid Dr. Ogden, UT 84404",Anabella Montoya,(421) 151-7351,bachelor degree,divorced,retired,78061,medical settlement
+35041,Josh Monroe,9/28/1980,male,"8575 Senna St. Laketown, UT 84038",Jayleen Whitney,(682) 993-5104,high school diploma,married,blue collar,55101,work injury
+35125,Dax Stevenson,12/12/1975,male,"8 Iroquois Street Teasdale, UT 84773",Sophia Daniel,(857) 226-9087,master degree,divorced,technician,125961,intellectual property
+35190,Mario Luna,9/19/1983,male,"7697 West Lily St. Park City, UT 84060",Ximena Kidd,(837) 802-5404,high school diploma,married,blue collar,60024,work injury
+35234,Sheldon Rowe,10/21/1943,male,"8468 Leeton Ridge Drive Levan, UT 84639",Emiliano Weaver,(545) 935-8789,bachelor degree,single,retired,75894,medical settlement
+36391,Leonardo Gomez,7/8/1984,female,"68 Manhattan Dr. Central, UT 84722",Kolton Chambers,(970) 684-1778,master degree,divorced,management,73941,intellectual property
+36638,Arnav Houston,9/5/1987,male,"9703 Vista Dr. Huntsville, UT 84317",Messiah Pennington,(651) 644-0420,bachelor degree,divorced,blue collar,48821,Contracts
+36668,Dylan Harmon,9/29/1988,male,"6 South Yew Dr. Cannonville, UT 84718",Gavyn Ball,(288) 118-7799,bachelor degree,single,blue collar,52370,Contracts
+36713,Jaelyn Mckay,7/8/1979,female,"499 Pennington Street Salt Lake City, UT 84126",Miriam Whitehead,(800) 640-0525,bachelor degree,single,technician,49335,work injury
+36805,Chana Garrett,11/19/1978,female,"8592 Sapphire Dr. Salt Lake City, UT 84111",Izabella Livingston,(819) 872-9445,bachelor degree,single,management,51310,work injury
+36810,Karina Carter,7/2/1976,female,"36 West Gonzales Street Lewiston, UT 84320",Eileen Jensen,(112) 160-3904,doctoral degree,single,expert,66808,intellectual property
+37011,Kobe Craig,7/19/1998,male,"8262 Lawn Dr. Chester, UT 84623",Kevin Lara,(794) 249-4139,high school diploma,divorced,blue collar,27411,accident litigation
+37181,Ryder Davila,11/9/1997,male,"465 Marsh Ave. Orem, UT 84057",Emilia Romero,(808) 148-6284,high school diploma,married,blue collar,24911,accident litigation
+37271,Sara Villegas,8/25/1986,male,"9439 Sussex St. Vernal, UT 84078",Adan Mckay,(151) 219-7897,bachelor degree,single,sales,62075,Contracts
+37284,Cailyn Ayers,1/24/1976,female,"42 Lafayette Drive Sandy, UT 84094",Kyson Zhang,(754) 224-2063,doctoral degree,married,expert,103547,intellectual property
+37668,Reed Ho,6/26/1988,male,"9357 Sunny Dr. Duchesne, UT 84021",Julia Vang,(138) 413-7586,bachelor degree,married,student,54798,Contracts
+37801,Alexus Osborn,7/13/1932,female,"18 Amber Lane Providence, UT 84332",Jacey Bartlett,(441) 484-5592,bachelor degree,single,retired,64358,medical settlement
+37842,Michael Austin,7/22/1986,male,"308 Tailwater Dr. Orem, UT 84097",Matthew Cuevas,(738) 130-4916,bachelor degree,divorced,sales,58020,Contracts
+37938,Aiyana Cox,1/14/1980,female,"298 Westminster Ave. Jensen, UT 84035",Mattie Dunlap,(111) 521-3773,bachelor degree,single,management,50996,work injury
+37948,Aliyah Martinez,8/2/1987,female,"472 Gilded St. Logan, UT 84322",Giada Mcgrath,(722) 129-5675,bachelor degree,married,sales,87206,intellectual property
+38059,Jakobe Branch,7/19/1986,male,"709 SE. Azure Lane Portage, UT 84331",Pamela Stanton,(527) 711-1391,bachelor degree,divorced,student,48585,Contracts
+38338,Finn Ortega,3/17/1941,female,"7830 Duke Street Salt Lake City, UT 84148",Kelsie Vaughn,(464) 869-9413,bachelor degree,divorced,management,71458,medical settlement
+38598,Amelie Mcgrath,11/16/1976,male,"3 Wrangler Rd. Lapoint, UT 84039",Luciana Mcknight,(201) 181-6163,master degree,divorced,management,125022,intellectual property
+38730,Julie Larson,6/17/1979,female,"8590 Bay View Court Ogden, UT 84405",Seamus Walter,(570) 841-3078,bachelor degree,single,management,43586,work injury
+38836,Piper Conway,10/12/1937,female,"127 North Mammoth Street Herriman, UT 84096",Alana Cook,(176) 776-3985,bachelor degree,married,retired,69273,medical settlement
+38847,Jaden West,10/12/1979,male,"8461 Rockledge St. Park City, UT 84098",Jerome Long,(472) 121-7574,high school diploma,single,blue collar,39444,work injury
+38962,Mylie Miller,4/8/1941,female,"9284 SW. Nova Ave. Lindon, UT 84042",Harper Benton,(541) 463-3287,bachelor degree,married,retired,54646,medical settlement
+39466,Melanie Bryan,7/15/1983,female,"29 Elmwood Road Salt Lake City, UT 84128",Zane Hartman,(317) 446-5994,doctoral degree,single,expert,82973,intellectual property
+39593,Carmen Christian,4/12/1979,female,"171 University St. Fruitland, UT 84027",Norah Orozco,(558) 780-1696,doctoral degree,married,expert,72978,intellectual property
+39697,Summer Baird,10/6/1943,male,"9258 Greenrose St. Lapoint, UT 84039",Nyla Becker,(485) 787-4942,bachelor degree,divorced,retired,82655,medical settlement
+39920,Peyton Richards,4/3/1948,male,"166 Green Lake Street Millville, UT 84326",Junior Boyle,(125) 265-0665,bachelor degree,divorced,retired,84626,medical settlement
+39936,Demarion Saunders,9/24/1994,female,"33 Lakewood St. Hatch, UT 84735",Winston Duncan,(183) 560-7582,bachelor degree,single,student,27688,accident litigation
+39979,Tiana Riddle,12/20/1987,male,"8353 Essex Road Plymouth, UT 84330",Clinton Khan,(694) 377-7062,bachelor degree,divorced,sales,54088,Contracts
+41306,Simone Cervantes,4/7/2001,female,"724 Butcher St. Hinckley, UT 84635",Javier Richard,(187) 761-1290,bachelor degree,single,admin,30040,accident litigation
+41733,Will Ellis,6/18/1998,male,"74 Shipley Dr. Cache Junction, UT 84304",Kaylie Moody,(248) 131-0816,high school diploma,married,blue collar,22378,accident litigation
+41762,Rachael Mcmahon,3/23/1944,female,"490 Cambridge Ave. Fort Duchesne, UT 84026",Zaniyah Lewis,(891) 210-7422,bachelor degree,married,retired,53362,medical settlement
+41962,Joel Forbes,1/24/1947,male,"407 NE. Paris Hill Rd. Castle Dale, UT 84513",Axel Garrison,(135) 654-6279,bachelor degree,single,retired,77010,medical settlement
+42280,Mayra Reid,10/12/1983,male,"552 Studebaker Road Orem, UT 84097",Shirley Glover,(667) 355-8710,high school diploma,single,blue collar,52928,work injury
+42296,Kadin Pierce,5/17/1972,male,"9251 Philmont Road Salt Lake City, UT 84147",Jaiden Gallagher,(159) 260-1488,master degree,divorced,technician,124533,intellectual property
+42423,Gilbert Lang,5/26/1986,male,"45 West Berkshire Ave. Oak City, UT 84649",Austin Young,(843) 713-8522,bachelor degree,single,sales,64164,Contracts
+42673,Khloe Lynch,10/15/1985,female,"8473 Ridgeview Ave. Randlett, UT 84063",Rodolfo Cook,(154) 215-4043,bachelor degree,divorced,management,30027,work injury
+42896,Travis Dixon,3/30/1980,female,"78 Foster Ave. Morgan, UT 84050",Selah Warren,(522) 783-3024,master degree,single,student,40300,work injury
+42958,Giancarlo Drake,3/11/1979,female,"55 Homewood St. Salt Lake City, UT 84114",Desiree Hayden,(199) 316-6238,master degree,married,admin,44827,work injury
+43055,Rashad Conway,3/16/1981,male,"446 Colonial St. Fayette, UT 84630",Belinda Blevins,(239) 459-3822,bachelor degree,divorced,sales,53514,work injury
+43326,Armani Walker,9/7/1994,female,"790 Deerfield Dr. Emery, UT 84522",Josh Jarvis,(284) 757-7463,bachelor degree,married,student,26303,accident litigation
+43902,Serena Tyler,10/14/1992,female,"131 E. Shady St. Alton, UT 84710",Lucia Bright,(996) 982-2903,master degree,divorced,admin,44994,Contracts
+43997,Edgar Barnett,3/23/1991,female,"12 Old Oceanview Lane Hyde Park, UT 84318",Louis Barker,(494) 152-5691,bachelor degree,divorced,student,27699,accident litigation
+44093,Jermaine Hogan,3/15/1981,female,"944 East Roberts Rd. Glendale, UT 84729",Ansley Frost,(275) 961-3728,bachelor degree,married,management,41043,work injury
+44241,Rose Montoya,4/4/1999,female,"762 Bush Road Mexican Hat, UT 84531",Eve Odonnell,(429) 742-6782,bachelor degree,single,student,27858,accident litigation
+44434,Meghan Woodward,4/10/1998,male,"650 W. Silver Rd. Circleville, UT 84723",Cyrus Patton,(404) 238-1535,high school diploma,divorced,blue collar,24384,accident litigation
+44443,Tania Church,9/19/1978,female,"47 Cross St. American Fork, UT 84003",Adyson Watson,(396) 601-0659,bachelor degree,married,management,51112,work injury
+44550,Demarcus Dickerson,6/6/1987,female,"9520 Wetland Street Wellsville, UT 84339",Maribel Cochran,(565) 895-7568,master degree,divorced,admin,40420,Contracts
+45085,Orion Olsen,7/20/1990,female,"7970 Constitution St. Annabella, UT 84711",Micah Randolph,(328) 074-0889,master degree,divorced,admin,44071,Contracts
+45221,Emmanuel Golden,10/4/1944,male,"9493 San Juan Ave. Salt Lake City, UT 84116",Nia Lee,(492) 151-3971,bachelor degree,single,retired,82565,medical settlement
+45287,Gideon Odom,12/10/1974,male,"842 Great St. Bingham Canyon, UT 84006",Quincy Dalton,(166) 649-0445,master degree,divorced,technician,114912,intellectual property
+45340,Jaiden Chambers,11/4/2003,female,"8921 Market Street Cedar City, UT 84720",Jadyn Thornton,(842) 134-6153,bachelor degree,married,student,19825,accident litigation
+45473,Jabari Taylor,10/6/1980,male,"5 Summit Rd. Cleveland, UT 84518",Hayden Santana,(883) 707-3773,bachelor degree,married,management,58678,work injury
+45561,Kaitlynn Robbins,3/26/1980,female,"553 Acorn Street American Fork, UT 84003",Brianna Brewer,(463) 193-9401,bachelor degree,married,admin,41715,work injury
+45671,Bobby Chambers,12/8/1980,female,"8584 Ramblewood Rd. Salt Lake City, UT 84105",Bobby Ritter,(138) 485-4704,bachelor degree,divorced,management,41513,work injury
+45847,Megan Bentley,2/2/1998,female,"61 Winding Way Road Circleville, UT 84723",Emilee Dickson,(437) 556-6711,bachelor degree,single,student,23229,accident litigation
+45858,Landyn Flynn,9/16/1975,female,"8368 Harvard St. Santa Clara, UT 84765",Kieran Horn,(822) 007-9518,bachelor degree,divorced,admin,42201,work injury
+45909,Brooklynn Barton,1/16/1974,male,"619 N. West Ave. Saratoga Springs, UT 84045",Saniya Strong,(283) 761-9223,master degree,single,technician,109862,intellectual property
+45959,Maci Griffin,1/3/2001,male,"25 Broad Street Salt Lake City, UT 84171",Pedro Figueroa,(477) 877-5943,high school diploma,divorced,blue collar,30806,accident litigation
+46324,Aidyn Conway,9/19/1970,male,"393 East Jewel Road Grantsville, UT 84029",Bentley Morrison,(166) 429-1832,master degree,married,technician,122523,intellectual property
+46461,Elijah Blake,10/7/1975,female,"38 Rockville Court Salt Lake City, UT 84139",Jade Brennan,(709) 560-6241,doctoral degree,divorced,expert,126486,intellectual property
+46507,Cohen Cooke,5/3/1994,female,"7381 National Ave. Centerfield, UT 84622",Aspen Gentry,(368) 004-5936,bachelor degree,divorced,admin,32123,accident litigation
+46858,Yusuf Hickman,8/10/2002,female,"510 South Brickell Street Dammeron Valley, UT 84783",Josue Jones,(592) 681-8718,bachelor degree,married,student,19821,accident litigation
+47008,Triston Gonzales,3/2/1999,female,"9047 Pennington Street Salt Lake City, UT 84199",Cynthia Dickerson,(599) 402-8584,bachelor degree,married,student,29312,accident litigation
+47018,Kaya Choi,10/17/1989,female,"7794 East Taylor Street Kanarraville, UT 84742",Natasha Mann,(311) 043-9603,master degree,married,admin,50603,Contracts
+47121,Nico Livingston,12/16/1989,female,"79 Gates Drive Salt Lake City, UT 84165",Luciano Anderson,(140) 159-2031,master degree,single,management,44174,Contracts
+47131,Emanuel Berry,4/10/1995,male,"3 Ashley Road Bountiful, UT 84011",Anabella Mckenzie,(831) 760-0352,high school diploma,married,blue collar,33918,accident litigation
+47227,Bronson Soto,5/12/1973,male,"7135 E. St Paul St. Whiterocks, UT 84085",Branson Mcintosh,(735) 182-3512,master degree,married,technician,104845,intellectual property
+47229,Lamar Duncan,1/24/1999,male,"54 High Noon St. Park City, UT 84060",Gerald Cisneros,(348) 801-6068,high school diploma,divorced,admin,27349,accident litigation
+47319,Payton Bradshaw,6/21/1982,male,"635 Surrey Street Blanding, UT 84511",Randy Frazier,(828) 849-6066,high school diploma,divorced,blue collar,49690,work injury
+47361,Kelly Delacruz,7/21/1982,female,"8306 Sugarplum Road Oakley, UT 84055",Hana Zimmerman,(668) 974-2943,doctoral degree,married,expert,106874,intellectual property
+47436,Connor Lutz,12/7/1995,female,"18 North Circus St. Mount Pleasant, UT 84647",Braylon Crawford,(134) 435-1460,bachelor degree,divorced,student,23953,accident litigation
+47447,Jamal Dodson,2/25/1997,female,"59 Riverview Ave. Ogden, UT 84401",Tara Cruz,(770) 546-2805,bachelor degree,married,student,22384,accident litigation
+47459,Seamus Summers,11/12/1989,female,"42 NE. Lavender Street Holden, UT 84636",Antoine Johns,(181) 798-4884,master degree,divorced,admin,45387,Contracts
+47595,Lane Webb,1/29/1943,male,"85 Valley Farms Rd. Riverside, UT 84334",Mikayla Morales,(227) 454-6615,bachelor degree,married,retired,80611,medical settlement
+47661,Audrey Ramos,7/17/1981,female,"103 Blue Spring Avenue Salina, UT 84654",Triston Compton,(771) 511-5831,master degree,single,student,45602,work injury
+48198,Kasen Bonilla,2/28/1981,male,"370 Clinton Lane Willard, UT 84340",Kaylyn Dodson,(500) 032-1372,bachelor degree,married,sales,55191,work injury
+48247,Brianna Joyce,8/5/1981,female,"7 Bay Meadows St. Layton, UT 84041",Aliya Escobar,(643) 463-2232,doctoral degree,divorced,expert,97818,intellectual property
+48433,Alessandro Stevens,3/15/1938,female,"7768 Vale Dr. Sandy, UT 84094",Romeo Benson,(406) 159-4089,bachelor degree,divorced,retired,64572,medical settlement
+49157,Titus Baxter,10/12/1980,female,"369 N. Oakwood Drive Salt Lake City, UT 84133",Jaydon Dudley,(262) 725-6199,bachelor degree,married,blue collar,44455,work injury
+49353,Lawrence Dougherty,8/30/1983,male,"9862 Wakehurst Ave. Veyo, UT 84782",Everett Bentley,(909) 304-6686,bachelor degree,married,technician,55962,Contracts
+49405,Allan Reynolds,1/6/1978,male,"72 Aurora St. Portage, UT 84331",Gauge Matthews,(541) 969-0505,high school diploma,married,blue collar,54482,work injury
+49410,Kenley Norris,10/14/1975,male,"799 Green Dr. Providence, UT 84332",Drake Bright,(597) 566-9748,master degree,single,technician,122040,intellectual property
+49665,Lola Huang,9/29/1974,male,"26 Pilgrim Ave. Saint George, UT 84770",Felicity Patton,(345) 493-2642,master degree,married,technician,118156,intellectual property
+49710,Gabriel Reid,9/26/1978,male,"143 Vista Rd. Bicknell, UT 84715",Demarcus Sutton,(815) 381-3695,high school diploma,married,blue collar,53961,work injury
+49830,Claudia Bright,8/24/1978,male,"7638 Livingston Dr. Cedar City, UT 84721",Lennon Prince,(619) 391-3624,bachelor degree,married,management,114083,intellectual property
+49844,Alvaro Molina,11/15/1985,male,"75 Wakehurst St. Logan, UT 84341",Stephanie Macias,(301) 798-5767,bachelor degree,single,sales,50887,Contracts
+50483,Geovanni Chang,7/27/1977,male,"455 Ivy Ave. Salt Lake City, UT 84116",Bruno Gilmore,(135) 269-5120,master degree,divorced,management,109112,intellectual property
+50765,Marin Cisneros,10/13/1999,female,"1 Pleasant St. Sandy, UT 84090",Reuben Romero,(912) 633-1725,bachelor degree,divorced,technician,26162,accident litigation
+51469,Jimena Pittman,11/14/1987,male,"9215 Nut Swamp St. Hanna, UT 84031",Zachery Ballard,(971) 965-5655,bachelor degree,divorced,sales,64987,Contracts
+51524,Dawson Lucero,2/28/1972,male,"209 Upper St. Gunnison, UT 84634",Raul Stevens,(734) 971-5993,bachelor degree,single,sales,113289,intellectual property
+51906,Erica Douglas,10/25/1999,female,"618 South Carriage Drive Layton, UT 84040",Natalia Flynn,(684) 404-1762,bachelor degree,married,student,18769,accident litigation
+51988,Issac Quinn,4/30/1992,female,"13 Hill Field Street Sandy, UT 84093",Amirah Landry,(781) 676-8680,master degree,single,blue collar,44947,Contracts
+52232,Luke Lynch,4/22/1977,female,"224 Glen Eagles Street Riverton, UT 84065",Brielle Moses,(126) 639-0336,bachelor degree,single,management,42607,work injury
+52559,Amiya Maxwell,7/10/1980,male,"667 East Foster Drive Salt Lake City, UT 84171",Averie Elliott,(320) 099-6070,high school diploma,divorced,blue collar,43649,work injury
+52617,Dayana Dixon,8/31/1974,male,"8980 Aspen Drive Salt Lake City, UT 84180",Olivia Mathis,(822) 537-9130,high school diploma,single,blue collar,46972,work injury
+52620,Davin Mcclain,4/20/1995,female,"8743 Rockland Ave. Salt Lake City, UT 84152",Ismael Shaffer,(122) 349-7045,bachelor degree,divorced,student,24276,accident litigation
+52647,Paulina Sosa,6/15/1977,male,"113 Quarry St. Saint George, UT 84791",Averi Nash,(819) 604-3141,master degree,divorced,technician,128742,intellectual property
+53151,Nicole Delgado,4/29/1943,male,"6 Laurel Rd. Roosevelt, UT 84066",Cecilia Landry,(996) 698-7252,bachelor degree,divorced,retired,84618,medical settlement
+53229,Arielle Foster,6/24/1996,male,"300 West Main Street Tabiona, UT 84072",Luke Hanna,(786) 470-2114,high school diploma,divorced,blue collar,26772,accident litigation
+53353,Sara Potts,1/8/1949,male,"9453 Museum St. Teasdale, UT 84773",Yosef Nash,(202) 537-5081,bachelor degree,divorced,retired,86482,medical settlement
+53460,Frank Malone,4/11/1997,male,"200 Heart Ave. Portage, UT 84331",Ayden Everett,(586) 738-7384,high school diploma,married,student,31735,accident litigation
+53669,Alexia Galvan,8/30/1997,male,"24 NW. Ridge St. Orangeville, UT 84537",Hadassah Espinoza,(638) 713-5324,high school diploma,divorced,blue collar,29583,accident litigation
+53736,Mikayla Kirby,10/31/1972,male,"581 Longfellow Court Salt Lake City, UT 84120",Aniyah Chambers,(598) 691-1835,master degree,single,technician,100834,intellectual property
+53862,America Bush,4/9/1977,male,"9415 Fremont St. Kanab, UT 84741",Andrew Baker,(609) 413-1963,high school diploma,single,blue collar,53141,work injury
+54108,Jayvion Hess,9/15/1940,male,"9420 Dogwood Road Provo, UT 84601",Kathy Castaneda,(292) 555-7236,bachelor degree,single,retired,75675,medical settlement
+54326,Kiley Keith,8/9/1987,male,"368 Park Drive Monument Valley, UT 84536",Rowan Byrd,(763) 869-6977,bachelor degree,married,sales,65422,Contracts
+54368,Bridger Mayer,10/9/1980,female,"409 N. Justice Court Mapleton, UT 84664",Eleanor Ellison,(342) 409-9699,bachelor degree,single,management,44114,work injury
+54507,Jadyn Simmons,8/14/1986,female,"64 Brickell Drive Salina, UT 84654",Brianna Delacruz,(277) 082-0947,doctoral degree,divorced,expert,95908,intellectual property
+54904,Maleah Mayo,11/10/1993,male,"7259 St Paul Street Glendale, UT 84729",Samir Wagner,(372) 844-4165,high school diploma,divorced,blue collar,30275,accident litigation
+55004,Evelyn Stuart,3/19/1989,female,"24 Shirley Street Washington, UT 84780",Isabel Durham,(573) 181-0525,master degree,divorced,admin,39514,Contracts
+55148,Mya Summers,12/13/1978,female,"388 South Parkside Dr. Ogden, UT 84244",Drake Hester,(948) 133-9680,doctoral degree,married,expert,80452,intellectual property
+55218,Elliot Phillips,4/3/1987,male,"2 Glenridge Ave. Farmington, UT 84025",Asa Sweeney,(996) 428-4786,bachelor degree,married,sales,58257,Contracts
+55396,Molly Richards,6/14/1994,male,"219 Thompson Street Saint George, UT 84770",Wade Newman,(637) 227-4094,high school diploma,single,blue collar,28735,accident litigation
+55428,Kadin Hartman,5/21/1983,female,"8204 Grime Ave. Hooper, UT 84315",Yael Butler,(355) 766-5970,doctoral degree,divorced,expert,89974,intellectual property
+55682,Gregory Chapman,8/31/1984,male,"475 Thomas Ave. Neola, UT 84053",Tucker Robles,(138) 846-9171,bachelor degree,single,sales,54794,Contracts
+55806,Taryn Jones,8/30/1987,female,"8241 N. Ivy Ave. Oak City, UT 84649",Margaret Stephenson,(611) 991-1313,master degree,single,blue collar,37744,Contracts
+56266,Annabel Miles,11/24/1987,female,"55 Mechanic Ave. Collinston, UT 84306",Amani Harris,(499) 898-9167,master degree,single,admin,42655,Contracts
+56440,Cason Tapia,8/2/1996,male,"9750 S. Mayflower Drive Providence, UT 84332",Isaac Olson,(156) 348-8436,high school diploma,married,blue collar,28296,accident litigation
+56494,Maurice Burnett,12/2/1986,female,"9597 Copper Avenue Clearfield, UT 84015",Sydney Villarreal,(534) 729-7542,master degree,married,admin,44815,Contracts
+56585,Jamison Proctor,4/15/1985,female,"7194 New Saddle Lane Ogden, UT 84401",Keenan Higgins,(751) 095-5362,doctoral degree,married,expert,63321,intellectual property
+57098,Sylvia Gutierrez,6/17/1944,male,"8164 Fulton Ave. Teasdale, UT 84773",Rihanna Bender,(950) 177-1599,bachelor degree,divorced,retired,74549,medical settlement
+57147,Gustavo Duran,8/10/1940,female,"9920 South Hind Dr. Corinne, UT 84307",Shania Martin,(993) 716-8401,bachelor degree,divorced,retired,78322,medical settlement
+57170,Alondra Stokes,4/22/1944,male,"40 Walnut Dr. Huntington, UT 84528",Heather Clarke,(340) 802-9567,bachelor degree,married,retired,74153,medical settlement
+57294,Janiyah Stewart,4/24/1978,female,"3 Meadow Dr. Sandy, UT 84094",Presley Barnett,(484) 136-1117,doctoral degree,divorced,expert,115355,intellectual property
+57926,Terrance Watson,1/16/1991,female,"8 South General Street Salt Lake City, UT 84101",Paige Little,(100) 008-6966,master degree,married,student,41354,Contracts
+57938,Memphis Berg,5/13/1987,female,"8850 Autumn St. Newton, UT 84327",Leonardo Hampton,(706) 534-5095,bachelor degree,single,management,45019,work injury
+58116,Kyan Lee,7/12/1996,female,"525 Wharf Ave. Cannonville, UT 84718",Camden Pierce,(108) 228-5160,bachelor degree,single,student,26995,accident litigation
+58383,Boston Garner,4/4/1942,female,"49 NE. Carpenter St. Hyrum, UT 84319",Leon Baxter,(761) 878-9136,bachelor degree,married,retired,63696,medical settlement
+58457,Ashley Cortez,3/11/1978,male,"8012 Carson St. Kanab, UT 84741",Elias Powers,(170) 337-5611,high school diploma,single,blue collar,56192,work injury
+58740,Ashtyn Fitzgerald,11/10/1942,male,"9057 South Livingston Court Toquerville, UT 84774",Eugene Horne,(202) 315-0151,bachelor degree,married,retired,74772,medical settlement
+59045,Cornelius Vang,12/12/1985,male,"477 South Lakewood Ave. Salt Lake City, UT 84132",Esteban Mahoney,(595) 437-1149,bachelor degree,single,sales,49923,Contracts
+59423,Bruce Gill,6/21/1943,male,"8254 Andover Avenue Bicknell, UT 84715",London Benitez,(273) 596-9325,bachelor degree,divorced,retired,78589,medical settlement
+59852,Emerson Ritter,10/15/1943,female,"291 Shade Road Howell, UT 84316",Mariana Ruiz,(638) 647-2368,bachelor degree,divorced,retired,75724,medical settlement
+59857,Kyra Henderson,5/15/1935,female,"7940 W. Penn St. Fruitland, UT 84027",Veronica Dixon,(728) 465-3086,bachelor degree,single,retired,58031,medical settlement
+60313,Adriel Khan,11/29/1977,male,"9399 Arrowhead Street South Jordan, UT 84009",Zoey Bartlett,(145) 549-6178,bachelor degree,divorced,management,46983,work injury
+60525,Raiden Rangel,9/9/1978,male,"680 Vermont Lane Cedar Valley, UT 84013",Reagan Hanson,(426) 520-6444,high school diploma,divorced,blue collar,46947,work injury
+60570,Barrett Tyler,11/16/1982,male,"54 Studebaker St. West Jordan, UT 84081",Sarah Kim,(229) 082-2480,high school diploma,married,blue collar,49468,work injury
+60960,Cali Fernandez,5/9/1986,female,"8940 Glenholme St. Moroni, UT 84646",Ralph Whitaker,(639) 207-3236,doctoral degree,married,expert,111203,intellectual property
+61007,Frankie Arroyo,10/10/1940,male,"72 E. Temple St. Paragonah, UT 84760",Kailey Reid,(462) 847-3886,bachelor degree,divorced,retired,85879,medical settlement
+61032,Lailah Grant,8/2/1981,female,"8215 Monument Ave. Axtell, UT 84621",Amiya Mcintosh,(252) 835-6700,bachelor degree,single,management,39516,work injury
+61279,Haylee Montgomery,12/21/1979,female,"327 High Noon St. Millville, UT 84326",Layton Winters,(857) 731-9277,bachelor degree,married,management,39060,work injury
+61333,Deshawn Cunningham,10/30/1996,female,"7739 Talbot Drive Midvale, UT 84047",Haylee Summers,(466) 695-1328,bachelor degree,married,technician,24028,accident litigation
+61433,Adison Hobbs,9/25/1989,female,"213 Chapel Lane Ogden, UT 84408",Gerardo Lowery,(859) 358-5439,master degree,single,admin,42970,Contracts
+61512,Demetrius Page,11/16/1943,male,"519 Pierce Ave. Pleasant Grove, UT 84062",Avery Mendoza,(923) 127-3411,bachelor degree,married,retired,75583,medical settlement
+62028,Marcus Navarro,4/16/1980,female,"9616 S. Pleasant St. Salt Lake City, UT 84120",Anya Krause,(445) 849-2730,doctoral degree,married,expert,89754,intellectual property
+62112,Tristian Osborn,3/26/1935,female,"7050 South Bishop St. Spanish Fork, UT 84660",Donald Stone,(327) 596-5279,bachelor degree,single,retired,58054,medical settlement
+62211,Emerson Chambers,11/17/1989,female,"232 Alton St. Ogden, UT 84409",Antony Russo,(877) 105-9514,master degree,single,admin,44560,Contracts
+62304,Xander Mora,10/4/1973,female,"528 Sun Street Gunnison, UT 84634",Christina Mata,(752) 541-3772,doctoral degree,single,expert,131378,intellectual property
+62390,Aisha Barron,10/30/1983,male,"8749 Gonzales St. Salt Lake City, UT 84102",Uriah Lin,(634) 608-9302,high school diploma,single,blue collar,57584,work injury
+62400,Kali Vasquez,1/30/1973,male,"9652 Bellow Circle Spanish Fork, UT 84660",Daniella Brady,(187) 926-3527,master degree,married,technician,119765,intellectual property
+62402,Sincere Young,8/29/1982,male,"636 Rocky River Ave. Salt Lake City, UT 84103",Sariah Abbott,(695) 014-0186,high school diploma,single,blue collar,48328,work injury
+62669,Jett Lowery,12/1/1997,female,"9244 W. William Ave. Clarkston, UT 84305",Madalynn Campos,(610) 530-3040,bachelor degree,married,student,26744,accident litigation
+62676,Brian Archer,11/26/1981,female,"971 S. Riverview Ave. West Jordan, UT 84088",Skye Case,(609) 602-5778,doctoral degree,married,expert,82934,intellectual property
+62839,Lilian Tapia,2/9/1981,female,"119 South Plymouth Rd. Levan, UT 84639",Jeramiah Rowland,(781) 022-4652,bachelor degree,divorced,management,46566,work injury
+62889,Jay Contreras,4/14/1940,female,"8325 Carriage Lane Salt Lake City, UT 84150",Skyler Schneider,(412) 289-4923,bachelor degree,married,retired,72914,medical settlement
+63210,Hope Wilkinson,12/16/1980,female,"535 Campfire St. Sevier, UT 84766",Daphne Dixon,(656) 099-6498,master degree,divorced,student,41483,work injury
+63326,Annalise Shelton,9/11/1977,male,"801 N. William St. Boulder, UT 84716",Hunter Pope,(134) 911-6207,master degree,married,technician,117708,intellectual property
+63495,Levi Richmond,8/25/1983,female,"449 South Plymouth Rd. Sigurd, UT 84657",Clinton Gallegos,(152) 209-8457,doctoral degree,divorced,expert,90401,intellectual property
+63648,Adison Burnett,10/10/1980,female,"558 NE. Mount St. La Sal, UT 84530",Tyrell Brewer,(118) 268-4310,bachelor degree,married,management,49514,work injury
+64067,Maxwell Wells,2/2/1946,male,"834 Sugar Ave. Salt Lake City, UT 84158",Mercedes Andersen,(645) 886-5938,bachelor degree,married,retired,71528,medical settlement
+64073,Kailey Clements,2/17/1941,female,"203 Achorage Ave. Salt Lake City, UT 84141",Dante Mullins,(655) 757-5084,bachelor degree,single,technician,70713,medical settlement
+64157,Azul Massey,7/18/1985,female,"573 Feathers Court Goshen, UT 84633",Cyrus Shah,(943) 643-1281,doctoral degree,single,expert,79822,intellectual property
+64222,Tia Yang,11/26/1982,female,"38 Lafayette Dr. Coalville, UT 84017",Lane Campos,(874) 300-4875,bachelor degree,single,management,41430,work injury
+64266,Anna King,12/24/1936,female,"7044 Ash St. Provo, UT 84602",Andreas Morris,(528) 032-5360,bachelor degree,married,retired,59718,medical settlement
+64301,King Adams,12/9/1976,male,"15 Summer Dr. Salt Lake City, UT 84115",Virginia Valencia,(835) 122-5262,high school diploma,divorced,blue collar,53202,work injury
+64669,Scott Shields,1/8/1997,female,"8794 S. Devonshire Street Sigurd, UT 84657",Kadence Osborn,(977) 890-5537,bachelor degree,single,student,26911,accident litigation
+65041,Giana Craig,4/17/1994,female,"9973 Canterbury Ave. Salt Lake City, UT 84115",Mckinley Camacho,(157) 100-2716,bachelor degree,divorced,student,22466,accident litigation
+65083,Larissa Santos,9/1/2000,male,"110 Ember Dr. Leeds, UT 84746",Essence Fernandez,(591) 333-3506,high school diploma,divorced,blue collar,25450,accident litigation
+65179,Jewel Tyler,4/26/1940,male,"27 Southampton St. Provo, UT 84604",Brian Terry,(332) 206-1955,bachelor degree,divorced,retired,79698,medical settlement
+65602,Charlee Marshall,10/29/1945,male,"910 Rockledge Road Kanarraville, UT 84742",Mekhi Lynn,(464) 400-9870,bachelor degree,divorced,retired,76956,medical settlement
+65915,Alexus Huynh,6/1/1986,female,"306 East Marvon St. Santa Clara, UT 84765",Kendall Keller,(115) 980-5058,master degree,married,admin,45271,Contracts
+65944,Brendan Bean,10/21/1974,male,"801 Woodside Court Tridell, UT 84076",Ruth Barr,(664) 913-9830,master degree,married,technician,120006,intellectual property
+66318,Francesca Stafford,11/12/2001,male,"960 Shirley St. Marysvale, UT 84750",Melissa Summers,(161) 981-7514,high school diploma,divorced,sales,26455,accident litigation
+66375,Sariah Morales,12/6/1985,male,"8681 Pennsylvania St. Magna, UT 84044",Lea Adkins,(200) 731-8492,bachelor degree,married,sales,53678,Contracts
+66402,Arianna Wolf,8/18/1975,male,"19 Plumb Branch Dr. Ogden, UT 84414",Madisyn Bartlett,(421) 251-3147,master degree,divorced,technician,108938,intellectual property
+66689,Francesca Khan,11/2/1988,female,"1 South Windmill Street Henrieville, UT 84736",Laurel Garner,(285) 771-6671,master degree,divorced,admin,45649,Contracts
+66810,Leonel Howe,11/13/1980,male,"63 Tanglewood Street Nephi, UT 84648",Kamren Atkinson,(943) 012-6195,high school diploma,single,blue collar,55301,work injury
+67116,Kiara Merritt,5/4/1941,female,"23 Vista Ave. Bear River City, UT 84301",Cassidy Cook,(616) 114-0525,bachelor degree,divorced,retired,77724,medical settlement
+67196,Kelsey Ponce,5/25/1976,male,"466 North Bay Drive Panguitch, UT 84759",Christopher Mann,(358) 960-0076,high school diploma,divorced,blue collar,53360,work injury
+67460,Carl Heath,2/11/1994,female,"77 State Dr. Pleasant Grove, UT 84062",Alberto Gonzalez,(515) 913-3088,bachelor degree,divorced,student,29697,accident litigation
+67565,Bailee Lang,11/5/1977,male,"9687 Auburn St. Parowan, UT 84761",Ross Sampson,(458) 862-6539,high school diploma,married,blue collar,51266,work injury
+67727,Leanna Delacruz,8/8/2000,female,"30 Noble Street Ogden, UT 84415",Evan Velazquez,(582) 407-4372,bachelor degree,single,student,32238,accident litigation
+68024,Shirley Miles,1/7/1980,female,"7345 Vermont Dr. Dugway, UT 84022",Randy Winters,(132) 434-3062,bachelor degree,divorced,management,36145,work injury
+68029,Dante Willis,7/3/1983,female,"199 Garnet St. Salt Lake City, UT 84143",Marissa Schmidt,(369) 891-9404,master degree,divorced,admin,44528,Contracts
+68299,Ramiro Logan,3/7/1943,female,"7870 Roehampton Ave. Boulder, UT 84716",Raul Mcfarland,(644) 427-1926,bachelor degree,single,retired,82571,medical settlement
+68467,Trinity Colon,6/8/1983,female,"646 National Lane Virgin, UT 84779",Lillianna Mcbride,(621) 369-6628,bachelor degree,single,management,47602,work injury
+69087,Marissa Morse,9/9/1989,female,"527A Terrace Ave. Riverside, UT 84334",Lewis Murray,(817) 300-2527,master degree,divorced,admin,42722,Contracts
+69129,Saige Luna,3/26/1979,male,"66 Starfall Ave. Annabella, UT 84711",Julianne Kidd,(859) 235-4641,high school diploma,married,blue collar,54895,work injury
+69356,Darien Schroeder,6/14/1977,male,"94 Arnold Avenue Elsinore, UT 84724",Conner Middleton,(287) 522-7276,high school diploma,married,blue collar,55773,work injury
+69477,Emmalee Velazquez,11/6/1939,female,"598 Swanson St. Santa Clara, UT 84765",Jamal Kerr,(975) 438-1676,bachelor degree,married,management,90486,medical settlement
+69610,Kymani Cervantes,12/16/1979,female,"883 Centre Road Wellsville, UT 84339",Braydon Hopkins,(745) 107-1320,doctoral degree,divorced,expert,50885,intellectual property
+69690,Kara Escobar,10/12/1974,female,"506 East Road Dammeron Valley, UT 84783",Denise Bullock,(833) 828-8165,bachelor degree,married,blue collar,112019,intellectual property
+69786,Maxwell Pacheco,9/30/2000,male,"919 Brandywine St. Vernal, UT 84079",Sonia Thornton,(977) 040-7651,high school diploma,divorced,blue collar,26790,accident litigation
+69841,Margaret Carey,4/25/1984,male,"997 Branch Street Virgin, UT 84779",Jaliyah Flowers,(694) 049-5101,bachelor degree,married,blue collar,51129,Contracts
+70085,Lea Camacho,4/3/1985,female,"201 Old Tanglewood St. La Sal, UT 84530",Julian Nixon,(912) 467-1504,master degree,married,admin,45691,Contracts
+70684,Cason Raymond,4/16/1993,male,"9577 Cedarwood Drive Salt Lake City, UT 84107",Emelia Mccormick,(460) 101-0573,high school diploma,single,blue collar,27411,accident litigation
+70806,Kendall Vazquez,9/16/1978,female,"837 Mayfield St. Jensen, UT 84035",Terry Ward,(990) 222-9272,doctoral degree,single,expert,81993,intellectual property
+71357,Glenn Holland,8/16/1982,female,"8723 South Newport Rd. Chester, UT 84623",Magdalena Hill,(654) 988-8138,doctoral degree,single,expert,110357,intellectual property
+71379,Pranav Carey,2/3/1977,male,"790 Creekside St. Eagle Mountain, UT 84005",Karma Skinner,(295) 099-7290,master degree,divorced,technician,142656,intellectual property
+72584,Rigoberto Guerrero,6/16/1999,female,"47 Duke St. Axtell, UT 84621",Aliya Mckenzie,(119) 550-9004,bachelor degree,single,student,28532,accident litigation
+72607,Marshall Yates,6/22/2002,male,"9987 Mayfield Ave. Boulder, UT 84716",Brenda Adkins,(455) 905-6360,high school diploma,married,blue collar,27233,accident litigation
+72752,Ivan Booker,10/4/1976,female,"1 Bridge Street Brian Head, UT 84719",Shyla Joseph,(105) 224-3368,master degree,married,management,102569,intellectual property
+72765,Kaitlyn Riley,11/16/1984,male,"8433 Bald Hill St. Sigurd, UT 84657",Miguel Barron,(924) 086-6268,bachelor degree,married,blue collar,53962,Contracts
+72819,Lyla Higgins,9/1/1942,male,"7403 Stonybrook Lane Lindon, UT 84042",Donald Huffman,(449) 359-7987,bachelor degree,single,retired,77411,medical settlement
+73265,Aracely Pollard,7/1/1992,female,"9207 Wright Street Delta, UT 84624",Lee Dawson,(374) 889-4934,master degree,divorced,admin,47984,Contracts
+73302,Kody Ramsey,1/24/1982,female,"257 S. Prairie St. Croydon, UT 84018",Tyree Walters,(795) 798-5766,doctoral degree,single,expert,110741,intellectual property
+73388,Kale Mills,5/10/1977,female,"8296 Pawnee St. Rockville, UT 84763",Zander Morris,(274) 171-1387,master degree,married,management,104003,intellectual property
+73403,Avery Strickland,7/30/2002,female,"9028 Lake St. Teasdale, UT 84773",Lorena Chase,(885) 046-0547,bachelor degree,divorced,student,22940,accident litigation
+73425,Alyvia Anderson,8/7/1995,male,"7005 SE. Colonel Lane Dammeron Valley, UT 84783",Brooklyn Frazier,(829) 461-8787,high school diploma,married,student,23573,accident litigation
+73723,Jarrett Levine,10/10/1980,male,"94 Studebaker Street Lehi, UT 84043",Leonel Duffy,(929) 752-9673,high school diploma,single,blue collar,61877,work injury
+73842,Skylar Wright,11/21/1979,male,"8233 Woodland Court Cache Junction, UT 84304",Charity Delacruz,(920) 244-0559,master degree,married,technician,122839,intellectual property
+74061,Finnegan Mayo,5/31/1987,male,"677 Military Street Salt Lake City, UT 84139",Jarrett Lucas,(648) 814-8016,bachelor degree,married,sales,51592,Contracts
+74121,Kolten Montgomery,10/5/1997,female,"34 York Drive Antimony, UT 84712",Josh Erickson,(364) 288-1524,bachelor degree,married,admin,28119,accident litigation
+74159,Tara Carson,5/30/1981,female,"9486 Great Lane Gunlock, UT 84733",Kailey Reeves,(392) 120-3625,doctoral degree,divorced,expert,58580,intellectual property
+74241,Mattie Wilkerson,1/18/1942,female,"788 Snake Hill Lane Salt Lake City, UT 84126",Conner Huffman,(578) 907-0827,bachelor degree,divorced,retired,71534,medical settlement
+74250,Sterling Estes,12/6/1992,female,"29 E. Central Dr. Salt Lake City, UT 84151",Justin Edwards,(739) 061-5553,bachelor degree,divorced,student,21304,accident litigation
+74405,Karina Gill,4/12/1992,female,"755 White St. Cedar City, UT 84721",Milton Mccall,(242) 660-0516,bachelor degree,single,student,29635,accident litigation
+74557,Jack Huerta,8/4/1983,female,"298 Victoria Drive Manila, UT 84046",Lilianna Morgan,(843) 717-4048,doctoral degree,single,expert,113013,intellectual property
+74568,Gavyn Lamb,10/23/1981,female,"430 Greenfield Dr. Honeyville, UT 84314",Ainsley Stein,(594) 212-9021,bachelor degree,divorced,management,41222,work injury
+74964,Cory Macdonald,12/31/1998,male,"82 W. Edgewood Street Vernon, UT 84080",Alan Estrada,(407) 714-5398,high school diploma,divorced,blue collar,25029,accident litigation
+75000,Nehemiah Allison,10/7/1988,female,"1 W. Seacoast Road Croydon, UT 84018",Jack Mata,(581) 953-2336,master degree,single,admin,46349,Contracts
+75077,Cassandra Skinner,8/22/1979,female,"198 Campfire Court Salt Lake City, UT 84184",Mila Guerra,(596) 060-2349,bachelor degree,single,management,48297,work injury
+75077,Adalyn Taylor,10/7/1986,female,"7361 Apostle Court South Jordan, UT 84009",Justus Pollard,(224) 394-2387,bachelor degree,divorced,management,38238,work injury
+75161,Clara Frazier,10/18/1987,male,"8996 Ridgewood Street Modena, UT 84753",Anaya Simon,(600) 999-7625,bachelor degree,divorced,sales,59872,Contracts
+75253,Adeline Andrade,3/5/1992,female,"849 New Rd. La Sal, UT 84530",Lilah Cline,(194) 076-5453,master degree,married,management,46126,Contracts
+75375,Taylor Rosales,10/31/1979,female,"27 Beacon Dr. Talmage, UT 84073",Angel Ritter,(899) 252-6723,bachelor degree,single,management,38564,work injury
+75487,Urijah Anderson,10/14/1998,male,"1 Greenrose Court Salt Lake City, UT 84106",Anabel English,(754) 707-2972,high school diploma,married,student,27187,accident litigation
+75969,Tripp Solis,8/21/1994,female,"1 Tunnel Ave. Salt Lake City, UT 84114",Jayvion Bolton,(346) 444-7248,bachelor degree,married,student,22250,accident litigation
+76342,Maritza Stark,9/8/1978,male,"36 Walt Whitman St. Ogden, UT 84414",Bryant Miller,(269) 216-5997,master degree,single,technician,115663,intellectual property
+76602,Kameron Mcintyre,2/3/1977,male,"7591 Bridgeton Rd. Salt Lake City, UT 84114",Melvin Jarvis,(819) 518-5730,master degree,single,technician,118556,intellectual property
+76723,Sarah Kerr,8/27/1991,male,"98 Olive Street Mendon, UT 84325",Frankie Kline,(999) 519-6105,bachelor degree,married,sales,45695,Contracts
+77360,Laurel Patrick,2/6/1996,female,"5 Greystone St. Aurora, UT 84620",Nathanial Castillo,(117) 599-1600,bachelor degree,divorced,student,28338,accident litigation
+77901,Chase Bird,10/1/1940,male,"8921 Green Hill St. Escalante, UT 84726",Carlie Hickman,(923) 315-8221,bachelor degree,single,retired,89695,medical settlement
+78034,Kiera Valdez,6/8/1941,female,"7 Devonshire St. Santaquin, UT 84655",Chaim Walters,(177) 505-3260,bachelor degree,single,retired,65594,medical settlement
+78807,Kennedy Santiago,2/6/1943,male,"549 East Fordham Road Peoa, UT 84061",Gracelyn Haney,(994) 143-9389,bachelor degree,single,retired,82002,medical settlement
+78928,Jovan Nelson,5/2/1988,female,"7977 Kingwood Drive Paradise, UT 84328",Katie Allen,(515) 168-7097,master degree,single,admin,40300,Contracts
+79182,Jimena French,8/8/2000,male,"866 Glenridge Rd. Beaver, UT 84713",Sierra Singleton,(696) 664-7603,high school diploma,single,student,25151,accident litigation
+79223,Cierra Gomez,8/13/1983,male,"972 Sunnyslope St. Dutch John, UT 84023",Zackery Pope,(193) 158-6835,bachelor degree,divorced,sales,54405,Contracts
+79727,Lindsay Herman,10/3/1985,male,"30 Orchard Ave. Grantsville, UT 84029",Raegan Chapman,(218) 267-7084,high school diploma,divorced,blue collar,50467,work injury
+80178,Tiana Little,3/25/1976,male,"534 Miller Dr. Lyman, UT 84749",Matthew Russo,(176) 800-2093,master degree,single,technician,133617,intellectual property
+80186,Alani Leonard,7/1/1974,female,"7556 Laurel St. Neola, UT 84053",Tess Woods,(854) 470-9872,doctoral degree,single,expert,145808,intellectual property
+80320,Howard Jarvis,8/1/1992,female,"17 Middle River Circle Kanosh, UT 84637",Kaiya Cantu,(270) 221-8140,master degree,divorced,admin,46536,Contracts
+80436,Savannah Todd,7/4/1980,female,"16 Temple Dr. Randolph, UT 84064",Bennett Riley,(171) 334-8177,master degree,married,admin,45925,work injury
+80623,Randy Rice,3/2/1980,male,"17 Circus Street Provo, UT 84602",Nathanael Alvarez,(272) 528-7345,high school diploma,single,blue collar,55123,work injury
+80670,Ignacio Duke,12/12/2001,male,"9932 Coffee Ave. Saint George, UT 84771",Rosa Levine,(161) 649-8242,high school diploma,married,technician,24443,accident litigation
+81046,Karlee Hines,7/5/1972,female,"45 Willow St. Lindon, UT 84042",Cynthia Duncan,(110) 508-2753,doctoral degree,single,expert,96405,intellectual property
+81080,Alexandria Rollins,3/17/1937,female,"156 El Dorado Ave. Cedar Valley, UT 84013",Paige Roman,(745) 606-3504,bachelor degree,married,retired,69821,medical settlement
+81279,Makaila Stephenson,7/11/1943,male,"20 Grace Ave. South Jordan, UT 84009",Brenda Wheeler,(666) 598-6332,bachelor degree,married,retired,85198,medical settlement
+81289,Gwendolyn Martinez,5/6/1975,male,"77 Vernon St. Greenville, UT 84731",Sidney Krueger,(372) 643-1609,master degree,married,technician,118411,intellectual property
+81312,Randy Daniel,7/25/1985,male,"250 Ramblewood Court Sandy, UT 84092",Mohamed Macias,(680) 053-2056,bachelor degree,single,sales,51876,Contracts
+81488,Cristal House,8/5/1999,male,"3 St Margarets Ave. Salt Lake City, UT 84145",Dakota Hartman,(747) 383-7034,high school diploma,divorced,sales,28052,accident litigation
+81621,Cassandra Moody,11/26/1975,male,"727 Winding Way St. Kanosh, UT 84637",Aniyah Fields,(384) 056-6084,master degree,married,technician,120102,intellectual property
+81731,Jaelynn Pham,7/20/1940,male,"31 Academy Lane American Fork, UT 84003",Kendall Bradley,(272) 355-2173,bachelor degree,single,retired,80939,medical settlement
+81757,Korbin Sheppard,12/2/1985,male,"951 North Grotto Ave. Ogden, UT 84244",Lily Lewis,(518) 337-2123,bachelor degree,divorced,sales,50678,Contracts
+81783,Daisy Chen,12/22/1997,female,"3 Pulaski Ave. Monticello, UT 84535",Emilio Esparza,(268) 015-1245,bachelor degree,divorced,student,23790,accident litigation
+82259,Guillermo Crosby,7/24/1987,male,"77 6th St. Ibapah, UT 84034",Alexia Norton,(617) 077-0479,bachelor degree,divorced,sales,59680,Contracts
+82376,Brennen Stout,11/8/1935,female,"7125 Rockledge Ave. Jensen, UT 84035",Heidi Harrison,(561) 619-3863,bachelor degree,married,retired,88365,medical settlement
+82591,Eduardo Schmidt,12/5/1943,male,"129 Carpenter Drive Bingham Canyon, UT 84006",Ezekiel Brady,(100) 510-7135,bachelor degree,single,retired,82775,medical settlement
+83017,Taylor Woodward,3/8/1988,female,"406 Nova Road Beaver, UT 84713",Stephen Lynch,(520) 517-9190,bachelor degree,single,student,32109,accident litigation
+83289,Tyrell Peters,1/28/1975,male,"478 New Street Corinne, UT 84307",Trenton Knox,(706) 719-7114,master degree,single,technician,115872,intellectual property
+83497,Cristopher Carpenter,4/15/1988,male,"7364 Rock Maple Road West Jordan, UT 84081",Harper Diaz,(390) 899-7351,bachelor degree,single,sales,53013,Contracts
+83577,Zoie Jensen,7/26/1949,male,"81 W. George Street Milford, UT 84751",Dayton Holmes,(744) 941-5438,bachelor degree,single,retired,81281,medical settlement
+83846,Stephany Wiley,6/16/1942,female,"7485 South Bear Hill Dr. Pine Valley, UT 84781",Phillip Hood,(717) 832-7995,bachelor degree,divorced,retired,57622,medical settlement
+84264,Bella Morgan,11/29/1936,female,"32 West Street Rockville, UT 84763",Kellen Rowe,(797) 535-7747,bachelor degree,married,retired,69727,medical settlement
+84277,Kara Woodward,3/22/1988,female,"375 E. Fortune Dr. Ibapah, UT 84034",Elisabeth Vaughan,(166) 467-1053,master degree,divorced,admin,43381,Contracts
+84453,Trent Bradshaw,5/26/1940,female,"9317 Upper Drive Scipio, UT 84656",Zackary Bates,(281) 402-6617,bachelor degree,single,retired,61602,medical settlement
+84573,Moshe Sloan,2/24/1982,female,"60 Brickyard Rd. Stockton, UT 84071",Emanuel Sanchez,(467) 699-5912,doctoral degree,divorced,expert,110344,intellectual property
+84777,Angie Walker,5/17/1983,female,"8920 Glenridge Drive Ibapah, UT 84034",Neil Callahan,(424) 880-5341,bachelor degree,single,management,51710,work injury
+84933,Joyce Morales,12/13/1968,male,"617 South Duchess Drive Randolph, UT 84064",Marely George,(263) 898-1737,bachelor degree,single,blue collar,128127,intellectual property
+85201,Arturo Guerra,6/15/1940,female,"9642 Sycamore Avenue Wellington, UT 84542",Mathew Dorsey,(266) 802-0705,bachelor degree,divorced,retired,55135,medical settlement
+85302,Ana Maddox,12/24/2000,male,"96 Sheffield Drive Fielding, UT 84311",Sophia Saunders,(141) 180-6524,high school diploma,single,blue collar,27027,accident litigation
+85693,Carleigh Gould,6/28/1986,female,"169 West Theater Drive Salt Lake City, UT 84124",Talon Barry,(959) 639-1978,master degree,divorced,admin,43287,Contracts
+85810,Raymond Carter,10/19/1979,male,"221 Henry Smith Ave. Minersville, UT 84752",Katelyn Carroll,(889) 304-1016,high school diploma,married,blue collar,59985,work injury
+85953,Phillip Trujillo,6/21/1998,male,"8749 Peninsula Dr. Beryl, UT 84714",Luciana Pineda,(244) 725-8760,high school diploma,married,blue collar,28122,accident litigation
+86199,Christina Santana,6/7/1943,female,"637 Garfield Dr. Kamas, UT 84036",Jovan Snow,(925) 026-7055,bachelor degree,single,retired,68419,medical settlement
+86326,Monica Griffin,12/22/1981,male,"7272 Arcadia St. South Jordan, UT 84095",Patricia Crawford,(992) 881-0458,high school diploma,married,blue collar,63763,work injury
+86355,Kira Sharp,1/10/1937,female,"475 Butcher Road Ogden, UT 84401",Ronan Curry,(620) 277-0686,bachelor degree,single,retired,75692,medical settlement
+86442,Eden Malone,7/23/1985,female,"7544 Sunnyslope Avenue Mount Carmel, UT 84755",Laylah Calhoun,(124) 964-5167,master degree,divorced,sales,79197,intellectual property
+86472,Wilson Lopez,9/19/1941,female,"4 Mechanic Ave. Centerville, UT 84014",Amiah Mercado,(222) 362-2317,bachelor degree,divorced,retired,65372,medical settlement
+86568,Averi Boyd,4/18/1982,female,"110 Clark Lane Fillmore, UT 84631",Cory Jackson,(508) 217-4926,doctoral degree,divorced,expert,126105,intellectual property
+86582,Zachary Rich,9/8/1981,male,"7849 Lees Creek Lane Salt Lake City, UT 84170",Alia Parks,(319) 044-4261,high school diploma,single,blue collar,48668,work injury
+86906,Fatima Shea,11/20/1942,male,"9378 Old Corona Lane Sandy, UT 84091",Skyler Knox,(732) 298-9495,bachelor degree,single,retired,77680,medical settlement
+86940,Isaac Kerr,10/12/1994,male,"949 Ridgewood St. Salt Lake City, UT 84108",Yamilet Shaw,(696) 105-1662,high school diploma,single,blue collar,26238,accident litigation
+86990,Anton Stanley,12/13/1991,female,"82 Harvey Ave. Elsinore, UT 84724",Finn Kennedy,(388) 218-2998,master degree,divorced,admin,38263,Contracts
+87555,Darwin Tate,2/13/1984,female,"285 Orchard St. Beaver, UT 84713",Keira Haney,(858) 323-6417,bachelor degree,single,management,39704,work injury
+87903,Edith Stuart,11/13/1976,male,"809 Peg Shop Lane Brigham City, UT 84302",Justine Rosario,(566) 816-5379,master degree,single,management,63851,work injury
+87917,Pranav Roth,4/4/1939,female,"4 Newbridge Ave. Fountain Green, UT 84632",Rodrigo Wiley,(990) 491-9745,bachelor degree,married,retired,69971,medical settlement
+88240,Johnathan Odom,4/2/1997,male,"11 3rd Road Hildale, UT 84784",Madisyn Bell,(750) 622-5070,high school diploma,married,sales,29684,accident litigation
+88481,Adolfo Hickman,1/8/1972,male,"1 Country St. Vernal, UT 84078",Urijah Barron,(766) 568-8158,master degree,single,management,124296,intellectual property
+88484,Paloma Gould,12/5/1973,male,"8325 Clay Road Kanab, UT 84741",Bridget Sheppard,(835) 325-6460,master degree,single,technician,123605,intellectual property
+88488,Nelson Oconnell,3/31/1988,female,"42 Myers St. Orem, UT 84057",Gary Perkins,(540) 306-8369,master degree,single,admin,46450,Contracts
+88652,Ayana Henson,5/18/1944,male,"82 S. Providence St. Montezuma Creek, UT 84534",Tomas Fitzpatrick,(511) 690-9510,bachelor degree,married,retired,87860,medical settlement
+89108,Demarion Proctor,2/28/1993,female,"8161 Wild Horse Dr. Levan, UT 84639",Brian Bates,(759) 500-6156,bachelor degree,divorced,sales,26431,accident litigation
+89536,Lillie Middleton,6/10/1980,male,"7681 Haven Drive Emery, UT 84522",Yahir Pope,(865) 688-4607,high school diploma,single,blue collar,48118,work injury
+89643,Kyra Garza,8/19/1988,male,"8895 Bush Ave. Eden, UT 84310",Paloma Mccormick,(674) 691-2527,bachelor degree,divorced,sales,55570,Contracts
+89675,Frankie Petersen,6/5/1994,female,"890 E. Rocky River St. Coalville, UT 84017",Cadence Joseph,(472) 041-7380,bachelor degree,divorced,student,19752,accident litigation
+90021,Kaitlynn Simmons,3/3/1977,female,"679 Sunny St. East Carbon, UT 84520",America Pacheco,(347) 925-7041,doctoral degree,married,expert,150395,intellectual property
+90068,Monserrat Collins,11/28/1999,male,"650 Whitemarsh Avenue Ogden, UT 84414",Terrance Cunningham,(395) 195-8606,high school diploma,married,blue collar,29004,accident litigation
+90113,Kaydence Stone,2/9/1972,male,"8065 Pleasant Ave. Wallsburg, UT 84082",Rosemary Rollins,(495) 005-2909,master degree,divorced,technician,117687,intellectual property
+90607,Sophia Duke,3/3/1986,female,"66 Woodsman Ave. Cleveland, UT 84518",Colby Fitzpatrick,(845) 642-4283,master degree,married,admin,44219,Contracts
+91041,Zoey Pacheco,3/19/1999,male,"165 Elizabeth Dr. Salt Lake City, UT 84152",Tyrell Cooley,(193) 483-9619,high school diploma,divorced,blue collar,29597,accident litigation
+91117,Kristian Montgomery,2/5/1992,female,"94 Shirley St. Toquerville, UT 84774",Lucille Nixon,(486) 419-0177,master degree,single,management,48798,Contracts
+91846,Mohammed Dennis,2/28/1976,male,"9255 Jade Dr. Duck Creek Village, UT 84762",Harley Fuentes,(538) 459-0925,high school diploma,married,blue collar,55460,work injury
+91900,Wesley Klein,4/11/1998,male,"7630 Sunbeam Ave. Salt Lake City, UT 84158",Laurel Wallace,(671) 058-8678,high school diploma,married,student,33487,accident litigation
+91915,Serenity Ali,3/22/1995,male,"74 Thatcher Court Centerville, UT 84014",Yael Wolfe,(500) 539-8532,high school diploma,single,blue collar,24620,accident litigation
+92620,Melvin Mcdonald,5/18/1935,female,"8090 S. Orchard Road Sevier, UT 84766",Rowan Anderson,(277) 913-9708,bachelor degree,married,retired,69914,medical settlement
+93438,Kole Sellers,1/12/1978,male,"8724 Front St. Kenilworth, UT 84529",Hadley Frye,(784) 622-4493,bachelor degree,single,sales,126962,intellectual property
+93467,Abbie Joyce,3/21/1984,female,"75 Onyx St. Salt Lake City, UT 84127",Kaelyn Paul,(147) 389-2311,doctoral degree,divorced,expert,119048,intellectual property
+93595,Malik Ramsey,7/22/1939,female,"9 Prospect Drive East Carbon, UT 84520",Kevin Kane,(363) 821-6783,bachelor degree,single,retired,76211,medical settlement
+93654,Cierra Dougherty,12/27/1997,female,"935 Van Dyke St. Orem, UT 84097",Nancy Estes,(476) 050-7227,bachelor degree,divorced,sales,31149,accident litigation
+93736,Jorden Boyd,4/10/1949,male,"6 Gold St. Salt Lake City, UT 84129",Eric Rhodes,(410) 189-4461,bachelor degree,married,retired,86816,medical settlement
+93745,Abdullah Price,9/16/1946,male,"621 Mountainview St. Laketown, UT 84038",Emilio Pace,(316) 910-2565,bachelor degree,single,retired,80597,medical settlement
+93798,Janiyah Hobbs,12/1/1994,male,"8930 Cathedral Dr. Orangeville, UT 84537",Wendy Joyce,(869) 766-6831,high school diploma,married,blue collar,28775,accident litigation
+93842,Armani Shields,5/19/1945,male,"1 Plaza Lane Neola, UT 84053",Lexie Phillips,(524) 273-0575,bachelor degree,divorced,retired,84813,medical settlement
+94205,Regan Kennedy,11/12/1989,female,"8945 Circle St. Tabiona, UT 84072",Nadia Olsen,(559) 715-2918,master degree,divorced,admin,47589,Contracts
+94249,Emery Joseph,5/6/1983,female,"8730 Rockwell Street Cornish, UT 84308",Sean Hahn,(157) 500-9022,bachelor degree,divorced,management,41467,work injury
+94420,Maryjane Benson,3/11/1941,female,"305 Fremont Ave. Green River, UT 84525",Johan Vang,(134) 929-9948,bachelor degree,married,retired,83773,medical settlement
+94590,Araceli Watson,3/5/1991,male,"688 Sun Dr. Antimony, UT 84712",Lizeth Huynh,(206) 522-4905,bachelor degree,single,sales,49632,Contracts
+94630,Isabell Gray,3/11/1984,female,"955 Wall Lane Scipio, UT 84656",Luciano Bell,(825) 360-8505,doctoral degree,single,expert,72491,intellectual property
+94662,Monique Weiss,7/19/1986,female,"9597 East Highland Lane Mona, UT 84645",Dylan Lamb,(577) 726-0998,master degree,married,admin,43583,Contracts
+94677,Phillip Villarreal,3/10/1971,male,"7493 Ember St. Park City, UT 84098",Malaki Lowe,(417) 855-2010,master degree,divorced,technician,108370,intellectual property
+94733,Adrienne Finley,7/15/1982,female,"211 Catherine Court Fruitland, UT 84027",Ashlee Gonzales,(176) 442-2524,bachelor degree,married,sales,119768,intellectual property
+94740,Makai Molina,6/18/1989,female,"9238 Glenridge Street Laketown, UT 84038",Gaven Poole,(564) 878-4503,master degree,divorced,admin,43399,Contracts
+95141,Shayna Le,9/27/1987,male,"471 South Jennings St. Orangeville, UT 84537",Miley Pennington,(676) 683-4109,bachelor degree,married,sales,55666,Contracts
+95620,Marissa Golden,5/3/1987,female,"503 Pulaski Ave. Ogden, UT 84409",Maximilian Butler,(322) 820-8814,master degree,single,technician,41499,Contracts
+95909,Bernard Esparza,4/11/1998,male,"72 East Marshall St. Sunnyside, UT 84539",Jessie Oconnell,(778) 983-3034,high school diploma,married,blue collar,26327,accident litigation
+95941,Braeden Mullins,1/15/1998,female,"136 Woodsman Avenue Dugway, UT 84022",Tamia Whitaker,(543) 299-6133,bachelor degree,married,student,17371,accident litigation
+96238,Drake Stephens,12/27/1983,male,"65 Lancaster St. Draper, UT 84020",Eileen Avila,(240) 322-1435,high school diploma,married,technician,57207,work injury
+96494,Kirsten Preston,2/29/1980,female,"739 Market Ave. Eden, UT 84310",Alia Crawford,(757) 531-7155,doctoral degree,married,expert,100198,intellectual property
+96795,Emerson Ball,9/12/1983,female,"63 County Rd. West Jordan, UT 84088",Royce Rodriguez,(892) 244-1759,bachelor degree,divorced,management,45112,work injury
+97197,Taylor Mcpherson,7/29/1988,male,"7148 Wood Rd. Salt Lake City, UT 84150",Jaydon Stewart,(813) 519-6371,bachelor degree,married,sales,51579,Contracts
+97369,Colton Cummings,8/26/1998,female,"9289 Military Drive Salt Lake City, UT 84157",Holden Jenkins,(680) 895-6683,bachelor degree,single,student,29859,accident litigation
+97414,Elle Ray,3/3/1972,male,"73 W. Frost Rd. Minersville, UT 84752",Karsyn Cowan,(184) 058-2570,master degree,married,technician,121988,intellectual property
+97568,Denise King,6/30/1987,male,"40 Arcadia Street Syracuse, UT 84075",Esteban Villa,(378) 287-4647,bachelor degree,single,sales,59747,Contracts
+97624,Yaritza Lopez,10/17/1983,female,"46 Anchor Ave. Salt Lake City, UT 84115",Belinda Richmond,(443) 907-2934,bachelor degree,divorced,management,38602,work injury
+98005,Kayleigh Barrett,7/23/1982,male,"9638 Frost Street Portage, UT 84331",Arielle Moses,(866) 590-2146,bachelor degree,married,sales,59244,Contracts
+98023,Camille Carpenter,1/2/1979,male,"723 N. Lafayette Street Fort Duchesne, UT 84026",Jaiden Vaughan,(527) 984-6388,high school diploma,divorced,blue collar,51772,work injury
+98168,Kane Robertson,2/20/1946,male,"8235 Rockledge St. Park Valley, UT 84329",Mauricio Cook,(393) 607-1041,bachelor degree,married,retired,75693,medical settlement
+98235,Angie Mercado,11/7/1995,female,"7517 Depot Drive Roy, UT 84067",Carson Reilly,(420) 697-7332,bachelor degree,divorced,student,17621,accident litigation
+98607,Janelle Doyle,10/23/1978,male,"7447 Noble Dr. Paradise, UT 84328",Moises Bryant,(872) 230-3017,high school diploma,married,blue collar,63441,work injury
+98787,Giada Chambers,6/13/1985,male,"33 Monument Ave. Paragonah, UT 84760",London Hogan,(369) 496-8465,bachelor degree,single,sales,62921,Contracts
+99040,Courtney Hanna,2/24/1983,female,"421 West Pioneer Rd. Myton, UT 84052",Naomi Hardin,(621) 941-9520,bachelor degree,single,management,49253,work injury
+99089,Byron Glover,12/24/1975,male,"208 Alderwood St. Beaver, UT 84713",Cecilia Mcconnell,(581) 805-7679,master degree,married,technician,133176,intellectual property
+99295,Francis Webb,5/24/1997,female,"51 Underwood Road Milford, UT 84751",Zaria Shah,(418) 453-0574,bachelor degree,divorced,student,17064,accident litigation
+99305,Angeline Bean,3/25/1976,male,"433 St Margarets Street Fountain Green, UT 84632",Marshall Levine,(892) 809-3745,master degree,divorced,technician,130111,intellectual property
+99373,Destiny Case,11/26/1983,male,"385 Bohemia Street Huntington, UT 84528",Gael Huynh,(509) 345-3284,bachelor degree,divorced,sales,50663,Contracts
+99675,Arabella Blackburn,4/19/1988,female,"713 Blessing Drive Salt Lake City, UT 84112",Ariel Osborne,(104) 093-3428,master degree,married,admin,49253,Contracts

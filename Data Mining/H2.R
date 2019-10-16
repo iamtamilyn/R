@@ -45,7 +45,7 @@ The target classification (output) column is y.  All other columns are potential
 setwd("C:\\git\\repo\\R\\Data Mining")
 ### 1. Import and clean data (10 points)
 # A. Import data. Load character variable as character strings first (stringsAsFactors = FALSE).
-bank <- read.csv(file = "bank.csv", stringsAsFactors = FALSE)
+bank <- read.csv(file = "bankyes.csv", stringsAsFactors = FALSE)
 
 # B.	Show the overall structure and summary of the input data.
 str(bank)
@@ -61,51 +61,49 @@ bank$loan <- factor(bank$loan)
 bank$contact <- factor(bank$contact)
 bank$month <- factor(bank$month)
 bank$poutcome <- factor(bank$poutcome)
-bank$y <- factor(bank$y)
+bank$yes <- factor(bank$yes)
 
 str(bank)
 summary(bank)
 
 # D. Explore categorical variables, and answer the following questions.
 # 1) Show the distribution of target variable.   
-prop.table(table(bank$y))
+summary(bank$yes)
 
 # 2) How many customers have housing loans? 
 summary(bank$housing)[2]
 
 # 3) How many customers are retired?
+# summary(bank$job[bank$job =="retired"])[6]
 summary(bank$job)[6]
 
 # E. Explore numeric variables, and answer the following questions.
 # 1) Create a histogram of the balance. Is the distribution skewed?
 hist(bank$balance, main = "Histogram of Balance", xlab = "Balance")
-# Yes, the distribution is skewed to the right.
+print("Yes, the distribution is skewed.")
 
 # 2) Create a correlation table for all of the numeric values in the data set. Which two variables have the highest correlation?
 cor(bank[,sapply(bank, is.numeric)])
-# The correlation between pdays and previous is the highest correlation of 0.454819635
+print("The correlation between balance and age is the highest correlation of 0.097782739")
 
 # 3) Show a boxplot of duration by variable y.
-boxplot(duration~y, data = bank)
+boxplot(duration~yes, data = bank)
+ 
 
 ### 2. Data partitioning and inspection code (10 points)
 # A.	Partition the data set for simple hold-out evaluation - 70% for training and the other 30% for testing.
 library(caret)
 set.seed(1)
-train_index <- createDataPartition(bank$y, p=0.7, list=FALSE)
+train_index <- createDataPartition(bank$yes, p=0.7, list=FALSE)
 datTrain = bank[train_index,]
 datTest = bank[-train_index,]
 
-# B.	Show the overall structure and summary of train and test sets. Show the distributions of variable y in the entire set, the train set and the test set.
+# B.	Show the overall structure and summary of train and test sets. Show the distributions of variable yes in the entire set, the train set and the test set.
 nrow(datTrain)
 nrow(datTest)
-str(datTrain)
-summary(datTrain)
-str(datTest)
-summary(datTest)
-prop.table(table(bank$y))
-prop.table(table(datTrain$y))
-prop.table(table(datTest$y))
+prop.table(table(bank$yes))
+prop.table(table(datTrain$yes))
+prop.table(table(datTest$yes))
 
 
 ### 3. Classification model training and testing. (10 points)
@@ -114,35 +112,34 @@ prop.table(table(datTest$y))
 library(rpart)
 library(rpart.plot)
 library(rminer)
-rpart_model <- rpart(y~.,data = datTrain,control = rpart.control(cp = 0.0001, maxdepth = 5))
+rpart_model <- rpart(yes~.,data = datTrain,control = rpart.control(cp = 0.0001, maxdepth = 5))
 rpart.plot(rpart_model)
 rpart_model
 
 prediction_on_train_dtree <- predict(rpart_model, datTrain)
 prediction_on_test_dtree <- predict(rpart_model, datTest)
 
-mmetric(datTrain$y,prediction_on_train_dtree, metric="CONF")
-mmetric(datTrain$y,prediction_on_train_dtree,c("ACC","PRECISION","TPR","F1"))
-mmetric(datTest$y,prediction_on_test_dtree, metric="CONF")
-mmetric(datTest$y,prediction_on_test_dtree,metric=c("ACC","PRECISION","TPR","F1"))
+mmetric(bank$yes,prediction_on_train_dtree, metric="CONF")
+mmetric(bank$yes,prediction_on_train_dtree,c("ACC","PRECISION","TPR","F1"))
+mmetric(bank$yes,prediction_on_test_dtree, metric="CONF")
+mmetric(bank$yes,prediction_on_test_dtree,metric=c("ACC","PRECISION","TPR","F1"))
 
 # B.	Train a Naive Bayes model with laplace = 1.  
 # Generate this model's confusion matrices and classification evaluation metrics in training and testing sets.
 library(e1071)
-naive_model <- naiveBayes(y~.,data = datTrain, laplace = 1)
+naive_model <- naiveBayes(yes~.,data = datTrain, laplace = 1)
 naive_model
 
 prediction_on_train_nb <- predict(naive_model, datTrain)
 prediction_on_test_nb <- predict(naive_model, datTest)
 
-mmetric(datTrain$y,prediction_on_train_nb, metric="CONF")
-mmetric(datTrain$y,prediction_on_train_nb,c("ACC","PRECISION","TPR","F1"))
-mmetric(datTest$y,prediction_on_test_nb, metric="CONF")
-mmetric(datTest$y,prediction_on_test_nb,metric=c("ACC","PRECISION","TPR","F1"))
+mmetric(bank$yes,prediction_on_train_nb, metric="CONF")
+mmetric(bank$yes,prediction_on_train_nb,c("ACC","PRECISION","TPR","F1"))
+mmetric(bank$yes,prediction_on_test_nb, metric="CONF")
+mmetric(bank$yes,prediction_on_test_nb,metric=c("ACC","PRECISION","TPR","F1"))
 
 # C. If you are a manager, which model (decision tree or naive bayes) you will use? And why?
-# We want to identify 'Yes' customers who will buy a CD. 
-# Since the TPR2 scores the ability to identify the correct class, I'm interested in Naive Bayes which has a higher TPR2 score.
+print("We want to identify 'Yes' customers who will buy a CD. Since the TPR2 scores the ability to identify the correct class, I'm interested in Naive Bayes which has a higher TPR2 score.")
 
 
 ### 4. Cost-benefit analysis. (15 points)
@@ -151,18 +148,7 @@ mmetric(datTest$y,prediction_on_test_nb,metric=c("ACC","PRECISION","TPR","F1"))
   # b.	Average Bank income for a purchase: $500 per customer that purchases term deposit.
   # c.	Opportunity cost of person not marketed but who would have been a purchaser: $500
 # Based on the above costs / benefits, what is the total net benefit / cost of the two models (decision tree and naive bayes) on testing data? 
-# DT Benefit: 500 * 740 = 370000
-# DT Cost: 50 * (740 + 487) = 61350
-# DT Opportunity cost: 500 * 846 = 423000
-# DT Net: 370000 - 61350 - 423000 = -114350
-
-# NB Benefit: 500 * 796 = 398000
-# NB Cost: 50 * (796 + 850) = 82300
-# DT Opportunity cost: 500 * 790 = 395000
-# NB Net: 398000 - 82300 - 395000 = -79300
-
-# Difference 35050
-
+print("")
 
 #	B. Create a cost matrix that sets the cost of classifying a purchaser of a term deposit as a non-purchaser to be 5 times the cost of the opposite (that is classifying a non-purchaser as a purchaser).
 matrix_dimensions <- list(c("No", "Yes"),c("predict_No", "Predict_Yes"))
@@ -171,33 +157,25 @@ print(costMatrix)
 
 # C. Use this cost matrix to build a decision tree model, and set cp = 0.0001, maxdepth = 5.
 # Generate this model's confusion matrices and classification evaluation metrics in training and testing sets.
-rpart_model_cm <- rpart(y~.,data = datTrain,control = rpart.control(cp = 0.0001, maxdepth = 5), parms = list(loss = costMatrix))
+rpart_model_cm <- rpart(yes~.,data = datTrain,control = rpart.control(cp = 0.0001, maxdepth = 5), parms = list(loss = costMatrix))
 rpart.plot(rpart_model_cm)
 rpart_model_cm
 
 prediction_on_train_cm <- predict(rpart_model_cm, datTrain, type = "class")
 prediction_on_test_cm <- predict(rpart_model_cm, datTest, type = "class")
 
-mmetric(datTrain$y,prediction_on_train_cm, metric="CONF")
-mmetric(datTest$y,prediction_on_test_cm, metric="CONF")
-mmetric(datTrain$y,prediction_on_train_cm,metric=c("ACC","PRECISION","TPR","F1"))
-mmetric(datTest$y,prediction_on_test_cm,metric=c("ACC","PRECISION","TPR","F1"))
+mmetric(bank$yes,prediction_on_train_cm, metric="CONF")
+mmetric(bank$yes,prediction_on_train_cm, metric="CONF")
+mmetric(bank$yes,prediction_on_test_cm,metric=c("ACC","PRECISION","TPR","F1"))
+mmetric(bank$yes,prediction_on_test_cm,metric=c("ACC","PRECISION","TPR","F1"))
 
 # D. Based on the costs / benefits, what is the total net benefit / cost of this new decision tree model on testing data?
 
-# CM Benefit: 500 * 1288 = 644000
-# CM Loss: 50 * (1984 + 1288) = 163600
-# CM Opportunity cost: 500 * 298 = 149000
-# CM Net: 644000 - 163600 - 149000 = 331400
+print("")
 
 # E. Compare decision tree models with or without cost matrix. By incorporating the cost matrix, which evaluation metrics get improved? What are the benefits to have higher values on these evaluation metrics?
 
-# Difference 331400 - -114350 = 445750
-# The Precision1 and TPR2 increased. With the matrix, predictions moved more towards yes customers, increase on both accurate and inaccurate predictions. 
-# Without the cost matrix, we would have missed out on the 548 yes customers. 
-# We had to market to a lot more people to get more yes customers, but the cost of marketing was offset by the benefit of yes customers.
-# The benefit to higher values on the matrix, it allows us to offset our ability to manage type 1 or type 2 errors. 
-# Type 1 errors cost $500, type 2 errors cost $50. Accounting for this business need shifts the results in our favor.
+
 
 ### 5. Cross-validation with decision tree model. (5 points)
 # Load packages for cross-validation

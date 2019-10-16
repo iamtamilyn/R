@@ -67,6 +67,8 @@ mmetric(datTest$IsBadBuy,prediction_on_test,metric=c("ACC","PRECISION","TPR","F1
 
   # a. Why we have perfect evaluation results on the training data?
   print("Because it is done with k=1, making it fit the training data closely.")
+  # Because we set k=1, so we use only one closest neighbor in training data to make prediction. 
+  # And for each training instance, the single closest neighbor is the instance itself, therefore, we use each instance's own label (target variable value) to make prediction, which leads to perfect evaluation performance.
   # b. Does the KNN model with k=1 generalize well on the testing set? why?
   print("With k=1, the training model is overfit with perfect performance so it doesn't generalize well. ")
 

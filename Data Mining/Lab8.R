@@ -122,10 +122,10 @@ mmetric(datTrain$IsBadBuy,prediction_on_train4,metric=c("ACC","PRECISION","TPR",
 mmetric(datTest$IsBadBuy,prediction_on_test4,metric=c("ACC","PRECISION","TPR","F1"))
 
 # How dose the model complexity affects MLP model performance?
-
+# Increasing model complexity (adding more hidden layers and nodes) increases the performance on the training data set and if it gets too complex we'll overfit to that training data set.
 
 # Which MLP model provides the best performance, and why?
-
+# The 4th model, it doesn't have as much ACC change between the training and testing set. 
 
 # 10. cross validation for MLP
 # Set up cv parameters
@@ -196,9 +196,9 @@ cv_function_test <- function(df, target, nFolds, seedVal, prediction_method, met
 
 # 3-fold cv with MLP method
 df = carAuction
-target
+target = 3
 nfolds = 3
-seedvalu = 1
+seedval = 1
 predictionMethod = MLP
 metrics_list = c("ACC","PRECISION","TPR","F1")
 
@@ -263,31 +263,31 @@ datTest2 <- insurance[-train_index,]
 
 # 6. Build MLP model contains two hidden layers: 16 hidden nodes for the first layer , and 8 hidden nodes for the second layer. Set N = 100
 MLP <- make_Weka_classifier("weka/classifiers/functions/MultilayerPerceptron")
-mlp_model_i <- MLP(expenses~.,data=insurance, control = weka_control(n=100, H='16, 8'))
+mlp_model_i <- MLP(expenses~.,data=datTrain2, control = Weka_control(N=100, H='16, 8'))
 summary(mlp_model_i)
 
 # Make predictions on both training and tessting sets
 prediction_on_train_i <- predict(mlp_model_i, datTrain2)
 prediction_on_test_i <- predict(mlp_model_i, datTest2)
 
-
 # Generating evaluation metrics on both training and testing data 
-mmetric(datTrain2$expenses,prediction_on_train_i, metric="CONF")
-mmetric(datTest2$expenses,prediction_on_test_i, metric="CONF")
-mmetric(datTrain2$expenses,prediction_on_train_i,metric=c("ACC","PRECISION","TPR","F1"))
-mmetric(datTest2$expenses,prediction_on_test_i,metric=c("ACC","PRECISION","TPR","F1"))
+mmetric(datTrain2$expenses,prediction_on_train_i,metric=c("MAE","RMSE","MAPE","RAE"))
+mmetric(datTest2$expenses,prediction_on_test_i,metric=c("MAE","RMSE","MAPE","RAE"))
 
 # 7. Build MLP model contains two hidden layers: 8 hidden nodes for the first layer, and 4 hidden nodes for the second layer. Set N = 100
-
+mlp_model_i2 <- MLP(expenses~.,data=datTrain2, control = Weka_control(N=100, H='8, 4'))
+summary(mlp_model_i2)
 
 # Make predictions on both training and tessting sets
-
+prediction_on_train_i2 <- predict(mlp_model_i2, datTrain2)
+prediction_on_test_i2 <- predict(mlp_model_i2, datTest2)
 
 # Generating evaluation metrics on both training and testing data 
-
+mmetric(datTrain2$expenses,prediction_on_train_i2,metric=c("MAE","RMSE","MAPE","RAE"))
+mmetric(datTest2$expenses,prediction_on_test_i2,metric=c("MAE","RMSE","MAPE","RAE"))
 
 # Which MLP model you prefer, and why?
-
+# The second model, which has fewer nodes. It has a higher MAPE on the testing set. 
 
 # 8. 3-fold cv on insurance data with MLP method
 # Set up cv parameters
@@ -299,11 +299,11 @@ mmetric(datTest2$expenses,prediction_on_test_i,metric=c("ACC","PRECISION","TPR",
 # metric_list: is a list of evaluation metrics that mmetric should generate
 
 df = insurance
-target
+target = 7
 nfolds = 3
 seedvalu = 1
 predictionMethod = MLP
-metrics_list = c("ACC","PRECISION","TPR","F1")
+metrics_list = c("MAE","RMSE","MAPE","RAE")
 
 cv_function_train(df, target, nFolds, seedVal, prediction_method, metrics_list)
 cv_function_test(df, target, nFolds, seedVal, prediction_method, metrics_list)

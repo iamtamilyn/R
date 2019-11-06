@@ -316,19 +316,19 @@ mmetric(datTest2$expenses,prediction_on_test_i3,metric=c("MAE","RMSE","MAPE","RA
 
 
 # Which C value provides the best performance?
-
+# C = 5 
 
 # How is SVM performed compared to mean estimator?
 # Compare to the mean estimator our model is 
 
 # Which evaluation metric tells you the percentage error?
-# MAPE - provides the mean aboslute percentage error.
+# MAPE - provides the Mean Aboslute Percentage Error.
 
 # Assume that you will lose each dollar your models prediction misses due to an over-estimation or under-estimation. Which evaluation metric you should use?
-# MAE
+# MAE - Mean Average Error
 
 # Assume that the penalty for an erroneous prediction increases with the difference between the actual and predicted values. Which evaluation metric you should use?
-# RMSE, it has higher weight for big errors. 
+# RMSE - Root Mean Squared Error, it has higher weight for big errors. 
 
 # 8. 3-fold cv on insurance data with SVM method
 # Set up cv parameters

@@ -82,24 +82,37 @@ prop.table(table(datTest$Rider))
 # A. Build a SVM model with C=5
 library(kernlab)
 library(rminer)
-
+svm_model <- ksvm(Rider~.,data=datTrain)
+svm_model
 
 # B. Generate this model's confusion matrices and classification evaluation metrics in training and testing sets.
+prediction_on_trainSVM <- predict(svm_model, datTrain)
+prediction_on_testSVM <- predict(svm_model, datTest)
 
+mmetric(datTrain$Rider,prediction_on_trainSVM, metric="CONF")
+mmetric(datTest$Rider,prediction_on_testSVM, metric="CONF")
+mmetric(datTrain$Rider,prediction_on_trainSVM,metric=c("ACC","PRECISION","TPR","F1"))
+mmetric(datTest$Rider,prediction_on_testSVM,metric=c("ACC","PRECISION","TPR","F1"))
 
 ### 4. Neural Network for classification (6 points)
 # A. Build a MLP model with N=100, H='8, 4'
 library(RWeka)
 MLP <- make_Weka_classifier("weka/classifiers/functions/MultilayerPerceptron")
-
+mlp_model <-  MLP(Rider~.,data=datTrain, control = Weka_control(N=100, H='8, 4'))
+summary(mlp_model)
 
 # B. Generate this model's confusion matrices and classification evaluation metrics in training and testing sets.
+prediction_on_trainMLP <- predict(mlp_model, datTrain)
+prediction_on_testMLP <- predict(mlp_model, datTest)
+
+mmetric(datTrain$Rider,prediction_on_trainMLP, metric="CONF")
+mmetric(datTest$Rider,prediction_on_testMLP, metric="CONF")
+mmetric(datTrain$Rider,prediction_on_trainMLP,metric=c("ACC","PRECISION","TPR","F1"))
+mmetric(datTest$Rider,prediction_on_testMLP,metric=c("ACC","PRECISION","TPR","F1"))
 
 
   # Which model is better for identifying riders, SVM or MLP?
-
-
-
+# The MLP model is better for identifying riders with a higher TPR2 at 92.634
 
 
 # Part 2. Numeric Prediction with Game Sale data.
@@ -140,7 +153,7 @@ summary(Sales)
 Sales$Name <- NULL
 
   # Why we should remove the name column? (1 points)
-
+# The name does not have an impact on numeric prediction, we're only looking at the characterstics of the game. 
 
 # D. Transform Platform, Genre, and Rating to factor variables. Show the overall structure and summary of the input data again.
 Sales$Platform <- factor(Sales$Platform)
@@ -158,7 +171,8 @@ datTest_sale <- Sales[-train_index,]
 
 ### 3. Multiple Linera Regression model for predicting Global_Sales value. (15 points)
 # A. Build a Multiple Linera Regression model with lm function
-
+mlp_model_sale <- MLP(Global_Sales~.,data=datTrain_sale)
+summary(mlp_model_sale)
 
   # Why we have multiple Coefficients for Platform, Genre, and Rating variables?
 
@@ -172,7 +186,13 @@ datTest_sale <- Sales[-train_index,]
 
 
 # B. Generate this model's evaluation metrics on both training and testing data.
+prediction_on_train_sale <- predict(mlp_model_sale, datTrain_sale)
+prediction_on_test_sale <- predict(mlp_model_sale, datTest_sale)
 
+mmetric(datTrain$Global_Sales,prediction_on_train_sale, metric="CONF")
+mmetric(datTest$Global_Sales,prediction_on_test_sale, metric="CONF")
+mmetric(datTrain$Global_Sales,prediction_on_train_sale,metric=c("ACC","PRECISION","TPR","F1"))
+mmetric(datTest$Global_Sales,prediction_on_test_sale,metric=c("ACC","PRECISION","TPR","F1"))
 
   # How is Multiple Linera Regression performed compared to mean estimator?
 
@@ -181,29 +201,37 @@ datTest_sale <- Sales[-train_index,]
 
 ### 4. Model Tree for predicting Global_Sales value. (7 points)
 # A. Build a Model Tree with M5P function.
-
+mlp_model_sale2
 
 # B. Generate this model's evaluation metrics on both training and testing data.
+prediction_on_train_sales2 <- predict(mlp_model_sale2, datTrain_sale)
+prediction_on_test_sales2 <- predict(mlp_model_sale2, datTest_sale)
 
+mmetric(datTrain_sale$Global_Sales,prediction_on_train_sales2,metric=c("MAE","RMSE","MAPE","RAE"))
+mmetric(datTest_sale$Global_Sales,prediction_on_test_sales2,metric=c("MAE","RMSE","MAPE","RAE"))
 
   # Compared to Multiple Linera Regression, does Model Tree have better performance, and why?
 
 
 ### 5. SVM for predicting Global_Sales value. (7 points)
 # A. Build a SVM model with your choice of C value.
-
+svm_model_sale3 <- ksvm(Global_Sales~.,data=datTrain_sale)
+svm_model_sale3
 
   # How you choose this C value to build the SVM model?
 
 
 # B. Generate this model's evaluation metrics on both training and testing data.
+prediction_on_train_sales3 <- predict(svm_model_sale3, datTrain_sale)
+prediction_on_test_sales3 <- predict(svm_model_sale3, datTest_sale)
 
-
-
+mmetric(datTrain_sale$Global_Sales,prediction_on_train_sales3,metric=c("MAE","RMSE","MAPE","RAE"))
+mmetric(datTest_sale$Global_Sales,prediction_on_test_sales3,metric=c("MAE","RMSE","MAPE","RAE"))
 
 ### 6. Neural Network for predicting Global_Sales value. (9 points)
 # A. Build a MLP model with with N=100, H='8, 8'
-
+mlp_model_sale4 <-  MLP(Global_Sales~.,data=datTrain_sale, control = Weka_control(N=100, H='8, 8'))
+summary(mlp_model_sale4)
 
 # B. Generate this model's evaluation metrics on both training and testing data.
 

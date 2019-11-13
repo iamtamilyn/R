@@ -111,7 +111,7 @@ mmetric(datTrain$Rider,prediction_on_trainMLP,metric=c("ACC","PRECISION","TPR","
 mmetric(datTest$Rider,prediction_on_testMLP,metric=c("ACC","PRECISION","TPR","F1"))
 
 
-  # Which model is better for identifying riders, SVM or MLP?
+# Which model is better for identifying riders, SVM or MLP?
 # The MLP model is better for identifying riders with a higher TPR2 at 92.634
 
 
@@ -171,55 +171,61 @@ datTest_sale <- Sales[-train_index,]
 
 ### 3. Multiple Linera Regression model for predicting Global_Sales value. (15 points)
 # A. Build a Multiple Linera Regression model with lm function
-mlp_model_sale <- MLP(Global_Sales~.,data=datTrain_sale)
-summary(mlp_model_sale)
+library(rminer)
+lm_model_sale <- lm(Global_Sales~.,data=datTrain_sale)
+summary(lm_model_sale)
 
   # Why we have multiple Coefficients for Platform, Genre, and Rating variables?
-
+# There are several possible values for each field.
   # How Critic_Score affects Global_Sales value? e.g., How Global_Sales changes if we increase Critic_Score by 1?
-
+# Critic_Score       1.942e-02 
   # How Critic_Count affects Global_Sales value? e.g., How Global_Sales changes if we increase Critic_Count by 1?
-
+# Critic_Count       1.285e-02 
   # Are User_Score and User_Count important for predicting Global_Sales, and why? hint: using the p-value to determine the importance.
-
+# Yes, they are small values and are likly less than the signifiance level which would make them statistically significant. 
   # What is the value of Multiple R-squared? Interpret the meaning of this Multiple R-squared value.
-
+# Multiple R-squared:  0.3338
+# The model explains about 33.38% of the variation in the dependent variable.
 
 # B. Generate this model's evaluation metrics on both training and testing data.
-prediction_on_train_sale <- predict(mlp_model_sale, datTrain_sale)
-prediction_on_test_sale <- predict(mlp_model_sale, datTest_sale)
+prediction_on_train_sale <- predict(lm_model_sale, datTrain_sale)
+prediction_on_test_sale <- predict(lm_model_sale, datTest_sale)
 
-mmetric(datTrain$Global_Sales,prediction_on_train_sale, metric="CONF")
-mmetric(datTest$Global_Sales,prediction_on_test_sale, metric="CONF")
-mmetric(datTrain$Global_Sales,prediction_on_train_sale,metric=c("ACC","PRECISION","TPR","F1"))
-mmetric(datTest$Global_Sales,prediction_on_test_sale,metric=c("ACC","PRECISION","TPR","F1"))
+mmetric(datTrain_sale$Global_Sales,prediction_on_train_sale,metric=c("MAE","RMSE","MAPE","RAE"))
+mmetric(datTest_sale$Global_Sales,prediction_on_test_sale,metric=c("MAE","RMSE","MAPE","RAE"))
 
   # How is Multiple Linera Regression performed compared to mean estimator?
-
+# Using the RAE (relative absolute error) which indicates model effectiveness compare to a simple mean estimator.
   # Which evaluation metric tells you the percentage error? Interpret the meaning of percentage error value on testing data.
+# Mean absolute percentage error (MAPE)
 
 
 ### 4. Model Tree for predicting Global_Sales value. (7 points)
 # A. Build a Model Tree with M5P function.
-mlp_model_sale2
+library(RWeka)
+M5p_model_sale2 <- M5P(Global_Sales~.,data = datTrain_sale)
+M5p_model_sale2
 
 # B. Generate this model's evaluation metrics on both training and testing data.
-prediction_on_train_sales2 <- predict(mlp_model_sale2, datTrain_sale)
-prediction_on_test_sales2 <- predict(mlp_model_sale2, datTest_sale)
+prediction_on_train_sales2 <- predict(M5p_model_sale2, datTrain_sale)
+prediction_on_test_sales2 <- predict(M5p_model_sale2, datTest_sale)
 
 mmetric(datTrain_sale$Global_Sales,prediction_on_train_sales2,metric=c("MAE","RMSE","MAPE","RAE"))
 mmetric(datTest_sale$Global_Sales,prediction_on_test_sales2,metric=c("MAE","RMSE","MAPE","RAE"))
 
   # Compared to Multiple Linera Regression, does Model Tree have better performance, and why?
+# The Model Tree is better, the RAE is improved, with a lower score.
 
 
 ### 5. SVM for predicting Global_Sales value. (7 points)
 # A. Build a SVM model with your choice of C value.
-svm_model_sale3 <- ksvm(Global_Sales~.,data=datTrain_sale)
+library(kernlab)
+svm_model_sale3 <- ksvm(Global_Sales~.,data=datTrain_sale, C=2)
 svm_model_sale3
 
   # How you choose this C value to build the SVM model?
-
+# Not going too high. When i tried a higher value like C=5, the differences between the training and testing data was increasing.
+# I stuck with C=2 because it seemed to increase the results from C=1 without having much difference between training/testing.
 
 # B. Generate this model's evaluation metrics on both training and testing data.
 prediction_on_train_sales3 <- predict(svm_model_sale3, datTrain_sale)
@@ -230,21 +236,26 @@ mmetric(datTest_sale$Global_Sales,prediction_on_test_sales3,metric=c("MAE","RMSE
 
 ### 6. Neural Network for predicting Global_Sales value. (9 points)
 # A. Build a MLP model with with N=100, H='8, 8'
+library(RWeka)
+library(rminer)
+MLP <- make_Weka_classifier("weka/classifiers/functions/MultilayerPerceptron")
 mlp_model_sale4 <-  MLP(Global_Sales~.,data=datTrain_sale, control = Weka_control(N=100, H='8, 8'))
 summary(mlp_model_sale4)
 
 # B. Generate this model's evaluation metrics on both training and testing data.
+prediction_on_train_sales4 <- predict(mlp_model_sale4, datTrain_sale)
+prediction_on_test_sales4 <- predict(mlp_model_sale4, datTest_sale)
 
-
+mmetric(datTrain_sale$Global_Sales,prediction_on_train_sales4,metric=c("MAE","RMSE","MAPE","RAE"))
+mmetric(datTest_sale$Global_Sales,prediction_on_test_sales4,metric=c("MAE","RMSE","MAPE","RAE"))
 
 # Assume that you will lose each dollar your models prediction misses due to an over-estimation or under-estimation. Which evaluation metric you should use?
 # Based on your choice of evaluation metric, which model has better performance, SVM or MLP?
-
-
+# The Root Mean Squared Error (RMSE) as it gives a relatively high weigh to large errors, meannig it's more useful when large errors are problematic.
+# The SVM performs better with a lower RMSE metric.
 
 # Assume that the penalty for an erroneous prediction increases with the difference between the actual and predicted values. Which evaluation metric you should use?
 # Based on your choice of evaluation metric, which model has better performance, SVM or MLP?
-
-
-
+# The Mean Absolute Error (MAE) which averages the magnitdues of forecase errors with over-estimate or under-estimation. 
+# The SVM performs better with a lower MAE metric.
 

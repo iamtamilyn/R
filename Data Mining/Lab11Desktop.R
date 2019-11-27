@@ -72,49 +72,15 @@ prop.table(table(datTest$Rider))
 library(rpart)
 library(rminer)
 
-rpart_model <- rpart(Rider~.,data = datTrain)
-rpart_model
-
-prediction_on_train_rpart <- predict(rpart_model, datTrain)
-prediction_on_test_rpart <- predict(rpart_model, datTest)
-
-mmetric(datTrain$Rider,prediction_on_train_rpart, metric="CONF")
-mmetric(datTest$Rider,prediction_on_test_rpart, metric="CONF")
-mmetric(datTrain$Rider,prediction_on_train_rpart,metric = c("ACC","PRECISION","TPR","F1"))
-mmetric(datTest$Rider,prediction_on_test_rpart,metric=c("ACC","PRECISION","TPR","F1"))
 
 # 8. Bagging based on decision tree model
 library(adabag)
 set.seed(1)
-bagging_model <- bagging(Rider~., data = datTrain, nbagg = 25)
-
-prediction_on_train_bagging <- predict(bagging_model, datTrain)
-prediction_on_test_bagging <- predict(bagging_model, datTest)
-mmetric(datTrain$Rider,factor(prediction_on_train_bagging$class),metric = c("ACC","PRECISION","TPR","F1"))
-mmetric(datTest$Rider,factor(prediction_on_test_bagging$class),metric=c("ACC","PRECISION","TPR","F1"))
 
 # 9. AdaBoost based on decision tree model
-adaboost_model <- boosting(Rider~., data = datTrain, mfinal=100)
-
-prediction_on_train_adaboost <- predict(adaboost_model, datTrain)
-prediction_on_test_adaboost <- predict(adaboost_model, datTest)
-mmetric(datTrain$Rider,factor(prediction_on_train_adaboost$class),metric = c("ACC","PRECISION","TPR","F1"))
-mmetric(datTest$Rider,factor(prediction_on_test_adaboost$class),metric=c("ACC","PRECISION","TPR","F1"))
 
 
 # 10. Random forests
 library(randomForest)
 set.seed(1)
-
-rf_model <- randomForest(Rider~., data = datTrain, ntree = 500, maxnodes = 200, mtry = 3)
-rf_model
-rf_model$importance
-
-prediction_on_train_rf <- predict(rf_model, datTrain)
-prediction_on_test_rf <- predict(rf_model, datTest)
-
-mmetric(datTrain$Rider,prediction_on_train_rf, metric="CONF")
-mmetric(datTest$Rider,prediction_on_test_rf, metric="CONF")
-mmetric(datTrain$Rider,prediction_on_train_rf,metric = c("ACC","PRECISION","TPR","F1"))
-mmetric(datTest$Rider,prediction_on_test_rf,metric=c("ACC","PRECISION","TPR","F1"))
 

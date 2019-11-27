@@ -61,14 +61,13 @@ inspect(sort(groceries_rules, by = "confidence")[1:5])
 
 # What is the probability of buying whole milk when butter is purchased?
 # probability one leads to the other is lift: 1.946053 
-# probability butter will be bought with butter is .4972477
+# probability whole milk will be bought with butter is .4972477
 
 # What is the probability of buying butter and whole milk together?
 # {butter} => {whole milk} - probabillity bought together is the support, 0.02755465
 
 # Interpret the first rule based on the values of the support, confidence, and lift.
 # Butter and milk have a positive effect on each other. 2.7% transactions have both items. 
-# 
 
 
 # 5. Use the apriori command to  generate rules with minimal support = 0.02 and minimal confidence = 0.4 and max length = 3.
@@ -89,7 +88,7 @@ inspect(vegetable_rules_l)
 # Interpret the first rule (containing "other vegetables" on the left-hand side) based on support, confidence, and lift values.
 # The probability of buying other veg, root veg and whole milk all together is 0.02318251
 # The probability of getting other veg and root veg with whole milk is 0.4892704
-# Buying other veg and root veg increases the chanc of buying whole milk by 1.914
+# Buying other veg and root veg increases the chance of buying whole milk by 1.914
 
 # Find and display rules containing "other vegetables" on the right-hand side 
 vegetable_rules_r <- subset(groceries_rules2, rhs %in% "other vegetables")
@@ -104,8 +103,6 @@ summary(groceries_rules3)
 inspect(sort(groceries_rules, by = "lift"))
 
 # Select an interesting rule and explain how it can benefit the grocery store.
+inspect(sort(groceries_rules, by = "lift")[1])
 # {beef} => {root vegetables}  0.01738688 0.3313953  3.040367 171  
-# This rule is interesting because the lift is so high at 3.040367
-
-
-
+# This rule is interesting because the lift is so high at 3.040367, it's the highest in the results for my rule3. 
